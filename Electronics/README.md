@@ -10,3 +10,5 @@ The *Extension board* and the *LEDs panel* are made internaly by the AstroPlant 
 The libraries can be found here : https://framagit.org/VincentFrangi/KiCad_AstroPlant_Lib.git
 
 The *EC-ph board* is made by [Sparky's Widgets](https://www.sparkyswidgets.com/)
+
+## Documentation
