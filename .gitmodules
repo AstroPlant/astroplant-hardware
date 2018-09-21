@@ -1,3 +1,6 @@
 [submodule "Electronics/PCB/AstroPlant_ExtensionBoard/astroplant-extension-board-mk0-6"]
 	path = Electronics/PCB/AstroPlant_ExtensionBoard/astroplant-extension-board-mk0-6
 	url = https://github.com/VincentFrangi/astroplant-extension-board-mk0-6.git
+[submodule "Electronics/PCB/AstroPlant_ExtensionBoard/astroplant-extension-board-mk0-5"]
+	path = Electronics/PCB/AstroPlant_ExtensionBoard/astroplant-extension-board-mk0-5
+	url = https://github.com/VincentFrangi/astroplant-extension-board-mk0-5.git
