@@ -7,3 +7,6 @@
 [submodule "Electronics/PCB/AstroPlant_LED/astroplant-led-mk0-2"]
 	path = Electronics/PCB/AstroPlant_LED/astroplant-led-mk0-2
 	url = https://github.com/VincentFrangi/astroplant-led-mk0-2.git
+[submodule "Electronics/PCB/AstroPlant_LED/astroplant-led-aluminum"]
+	path = Electronics/PCB/AstroPlant_LED/astroplant-led-aluminum
+	url = https://github.com/VincentFrangi/astroplant-led-aluminum.git
