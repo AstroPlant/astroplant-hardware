@@ -1,0 +1,8 @@
+### Footprint positions - created on Thu Oct 12 15:37:43 2023 ###
+### Printed by KiCad version 7.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+G***      LOGO      banner             142.2000   -51.8000    0.0000  bottom
+G***      LOGO      rocket3_Cu         154.9400   -73.2000    0.0000  bottom
+## End

@@ -1,0 +1,6 @@
+# KiCAD project
+
+*.bak
+*.xml
+*.sch-bak
+*.lck
