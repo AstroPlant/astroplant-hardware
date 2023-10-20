@@ -1,4 +1,13 @@
-# MK06
+
+#If you want to generate output files, follow these steps: 
+
+First you'll need Kicad 7.0: https://www.kicad.org/download/ 
+Then open the project by executing the .kicad_pro file, you will then be able to see the different elements of the project such as the schematic and the pcb,
+If you want the gerber or drill map, open the pcb editor (.kicad_pcb) and go "File -> Fabrication output ->Gerbers/Drill/BOM".
+
+For Gerber, select layers: B_Cu,B_Mask,B_Paste,B_Silkscreen,F_Cu,F_Mask,F_Paste,F_Silkscreen,Edge_Cuts and User_Eco2
+
+ MK06
 
 ## Specs
 
