@@ -1,5 +1,8 @@
 # KiCAD project
 
+*.pro
+*.sch
+*.dcm
 *.bak
 *.xml
 *.sch-bak
