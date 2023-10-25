@@ -1,9 +1,7 @@
 # KiCAD project
 
-*.pro
-*.sch
-*.dcm
+
 *.bak
-*.xml
-*.sch-bak
+*sch-bak
 *.lck
+*autosave*
