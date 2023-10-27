@@ -2,9 +2,10 @@
 #To manufacture the PCB you need these files:
   - gerber - track/component placement
   - .drl - drill placement 
-  -.pos - component placement 
+  - .pos - component placement 
  These file are avaible in the /Outputs directory
-
+ 
+The BOM is available in the main folder.
 
 #If you want to generate new output files, follow these steps: 
 
@@ -14,12 +15,8 @@ If you want the gerber or drill map, open the pcb editor (.kicad_pcb) and go "Fi
 For each file, select the output directory before generating
 
 For Gerber, select layers: B_Cu,B_Mask,B_Paste,B_Silkscreen,F_Cu,F_Mask,F_Paste,F_Silkscreen,Edge_Cuts and User_Eco2
-
-To manufacture the PCB you need these files:
-  - gerber - track/component placement
-  - .drl - drill placement 
-  -.pos - component placement 
-  
+and leave the other options as they are.
+ 
 ##MK06.1
 
 ## Specs
