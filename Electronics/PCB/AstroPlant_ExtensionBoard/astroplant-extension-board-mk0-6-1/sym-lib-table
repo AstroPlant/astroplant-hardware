@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Astroplant_VFR-rescue)(type Legacy)(uri ${KIPRJMOD}/Astroplant_VFR-rescue.lib)(options "")(descr ""))
+)

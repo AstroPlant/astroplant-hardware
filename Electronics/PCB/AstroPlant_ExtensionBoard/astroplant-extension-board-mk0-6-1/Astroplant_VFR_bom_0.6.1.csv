@@ -1,0 +1,33 @@
+Source:,C:\Users\Aurel\Documents\Astroplant\Hardware\AstroPlant_VFR-master_v7.0\Project\Electronics\PCB\mk06\Astroplant_VFR.kicad_sch,,,,,,,,,,,
+Date:,12/10/2023 15:22:05,,,,,,,,,,,
+Tool:,Eeschema 7.0.7,,,,,,,,,,,
+Generator:,C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,
+Component Count:,56,,,,,,,,,,,
+,,,,,,,,,,,,
+Collated Components:,,,,,,,,,,,,
+,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,MPN (ref manufacturer),LibPart,Footprint,Datasheet,Digikey PN,Digikey Part Number,,Mouser Part Number,URL
+1,2,"C1, C2",0.1uF,08055C104JAT2A ,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,http://catalogs.avx.com/SurfaceMount.pdf,,478-3352-1-ND,,,https://www.digikey.com/product-detail/en/avx-corporation/08055C104JAT2A/478-3352-1-ND/930144
+2,1,C3,470uF,875115150005,Astroplant_VFR-rescue:CP_Small-Device,Capacitor_SMD:CP_Elec_8x6.9,http://katalog.we-online.de/pbs/datasheet/875115150005.pdf,732-6443-1-ND,,,,
+3,1,C4,470uF,EEH-ZK1E471P,Astroplant_VFR-rescue:CP-Device,Capacitor_SMD:CP_Elec_10x10.5,https://industrial.panasonic.com/cdbs/www-data/pdf/RDD0000/ABA0000C1229.pdf,P121398CT-ND,,,,
+4,1,D1,LED_Blue,SMLEN3BC8TT86,Device:LED,LED_SMD:LED_0603_1608Metric,https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/smlen3bc8tt86-e.pdf,,,, 755-SMLEN3BC8TT86 ,
+5,3,"D2, D3, D4",S1A,S1A-13-F,Astroplant_VFR-rescue:D_ALT-Device,Diode_SMD:D_SMA,https://www.fairchildsemi.com/datasheets/S1/S1A.pdf,,S1AFSCT-ND,,,https://www.digikey.com/product-detail/en/on-semiconductor/S1A/S1AFSCT-ND/965718
+6,1,D5,LED_Amber,SML-D12D8WT8,Device:LED,LED_SMD:LED_0603_1608Metric,https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12d8wt86(c)-e.pdf,,,, 755-SML-D12D8WT86C,
+7,1,J1,JST_XH_Relays,B6B-XH-A(LF)(SN),Astroplant_VFR-rescue:JST_XH_Relays-JST_connector,Connector_JST:JST_XH_B06B-XH-A_1x06_P2.50mm_Vertical,http://www.jst-mfg.com/product/pdf/eng/eXH.pdf,,455-2271-ND,,,https://www.digikey.com/products/en?keywords=B6B-XH-A(LF)(SN)%20
+8,1,J2,2x40 2.5mm Header,61304021121,Connector:Raspberry_Pi_2_3,footprints:Pin_Header_Straight_2x20_Pitch2.54mm,http://katalog.we-online.de/em/datasheet/6130xx21121.pdf,,732-5310-ND,,,https://www.digikey.com/product-detail/en/wurth-electronics-inc/61304021121/732-5310-ND/4846886
+9,4,"J3, J4, J7, J9",JST-XH_3,B3B-XH-A(LF)(SN) ,Astroplant_VFR-rescue:JST-XH_3-JST_connector,Connector_JST:JST_XH_B03B-XH-A_1x03_P2.50mm_Vertical,http://www.jst-mfg.com/product/pdf/eng/eXH.pdf,,455-2248-ND,,,https://www.digikey.com/products/en?keywords=B3B-XH-A(LF)(SN)%20
+10,7,"J5, J8, J11, J16, J17, J18, J19",JST_HX_2,B2B-XH-A(LF)(SN) ,Astroplant_VFR-rescue:JST_HX_2-JST_connector,Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical,http://www.jst-mfg.com/product/pdf/eng/eXH.pdf,,455-2247-ND,,,https://www.digikey.com/products/en?keywords=%20B2B-XH-A(LF)(SN)%20
+11,1,J6,Conn_02x04_Odd_Even,X,Connector_Generic:Conn_02x04_Odd_Even,footprints:Pin_Header_Straight_2x04_Pitch2.54mm,~,,,,,
+12,1,J10,JST_XH_UART,B4B-XH-A(LF)(SN),Astroplant_VFR-rescue:JST_XH_UART-JST_connector,Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical,http://www.jst-mfg.com/product/pdf/eng/eXH.pdf,,455-2249-ND,,,https://www.digikey.com/products/en?mpart=B4B-XH-A%28LF%29%28SN%29&v=455
+13,1,J12,JST-XH_LED_GND,B4B-XH-A(LF)(SN),Astroplant_VFR-rescue:JST-XH_LED_GND-JST_connector,Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical,,,455-2249-ND,,,
+14,2,"J20, J21",Conn_01x02,691102710002,Connector:Screw_Terminal_01x02,footprints:TerminalBlock_bornier-2_P5.08mm,https://www.we-online.com/components/products/datasheet/691102710002.pdf,,710-691102710002,, 710-691102710002,https://www.we-online.com/components/products/datasheet/691102710002.pdf
+15,6,"J22, J23, J24, J25, J26, J27",JST_XH_I2C,B4B-XH-A(LF)(SN) ,Astroplant_VFR-rescue:JST_XH_I2C-Astroplant_VFR-rescue-Astroplant_VFR-rescue,Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical,http://www.jst-mfg.com/product/pdf/eng/eXH.pdf,,455-2249-ND,,,https://www.digikey.com/products/en?keywords=B4B-XH-A(LF)(SN)%20
+16,1,JP1,Jumper_3_Bridged12,61300311121,Astroplant_VFR-rescue:Jumper_3_Bridged12-Jumper,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,http://katalog.we-online.de/em/datasheet/6130xx11121.pdf,732-5316-ND,,,,
+17,1,JP2,Jumper_2_Bridged,61300211121,Jumper:Jumper_2_Bridged,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,http://katalog.we-online.de/em/datasheet/6130xx11121.pdf,732-5315-ND,,,,
+18,2,"JP3, JP4",Jumper_2_Bridged,60900213421,Jumper:Jumper_2_Bridged,,https://www.we-online.com/components/products/datasheet/60900213421.pdf,,,,,
+19,5,"Q1, Q2, Q3, Q4, Q5",IRLML6344TRPBF,IRLML6344TRPBF,Astroplant_VFR-rescue:IRLML6344-AstroPlant,Package_TO_SOT_SMD:SOT-23,https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c,,IRLML6344TRPBFCT-ND,,,https://www.digikey.com/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168
+20,6,"R1, R2, R3, R4, R5, R7",10K,RC0805FR-0710KL,Device:R_Small,Resistor_SMD:R_0805_2012Metric,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf,311-10.0KCRCT-ND,311-10.0KCRCT-ND,,,https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10.0KCRCT-ND/730482
+21,1,R6,27,RR0816Q-270-D,Device:R_Small,Resistor_SMD:R_0603_1608Metric,http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf,RR08Q27DCT-ND,,,,
+22,3,"R8, R9, R10",100K,RC0805FR-07100KL ,Device:R,Resistor_SMD:R_0805_2012Metric,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf,,311-100KCRCT-ND,,,https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491
+23,1,R11,180,ESR10EZPJ181,Device:R_Small,Resistor_SMD:R_0805_2012Metric,http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e,RHM180KCT-ND,,,,
+24,3,"SW1, SW2, SW3",SW_Push,430156043726,Astroplant_VFR-rescue:SW_Push-Astroplant_VFR-rescue-Astroplant_VFR-rescue,Button_Switch_THT:SW_PUSH_6mm,https://www.we-online.com/components/products/datasheet/430156043726.pdf,,,, 710-430156043726 ,https://nl.mouser.com/ProductDetail/Wurth-Elektronik/430156043726?qs=wr8lucFkNMVvKRpwxYTfow%3D%3D
