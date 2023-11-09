@@ -1,0 +1,2 @@
+../Middlewares/ST/STM32_WPAN/zigbee/platform/hw_flash.c:27:5:HW_FLASH_Write	16	static,ignoring_inline_asm
+../Middlewares/ST/STM32_WPAN/zigbee/platform/hw_flash.c:50:5:HW_FLASH_Erase	16	static

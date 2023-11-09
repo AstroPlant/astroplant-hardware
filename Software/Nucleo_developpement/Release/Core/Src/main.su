@@ -1,0 +1,8 @@
+../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:539:22:LL_AHB2_GRP1_EnableClock	8	static
+../Core/Src/main.c:575:6:APP_SPIread_Process	8	static,ignoring_inline_asm
+../Core/Src/main.c:166:6:SystemClock_Config	112	static,ignoring_inline_asm
+../Core/Src/main.c:234:6:PeriphCommonClock_Config	88	static,ignoring_inline_asm
+../Core/Src/main.c:92:5:main	32	static,ignoring_inline_asm
+../Core/Src/main.c:551:6:HAL_SPI_TxRxCpltCallback	8	static
+../Core/Src/main.c:569:6:HAL_SPI_ErrorCallback	0	static
+../Core/Src/main.c:593:6:Error_Handler	0	static,ignoring_inline_asm
