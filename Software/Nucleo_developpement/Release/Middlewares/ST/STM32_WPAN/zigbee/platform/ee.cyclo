@@ -1,0 +1,11 @@
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:681:17:EE_Crc	1
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:598:12:EE_ReadEl.constprop	7
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:642:12:EE_SetState.constprop	1
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:661:17:EE_GetState.constprop	3
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:534:12:EE_WriteEl.constprop	6
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:462:12:EE_Transfer.constprop	13
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:150:5:EE_Init	16
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:206:5:EE_Read	1
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:216:5:EE_Write	6
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:283:5:EE_Clean	2
+../Middlewares/ST/STM32_WPAN/zigbee/platform/ee.c:311:6:EE_Dump	5

@@ -1,0 +1,13 @@
+/*
+ * zigbee_app.h
+ *
+ *  Created on: Oct 19, 2023
+ *      Author: Aurel
+ */
+
+#ifndef INC_ZIGBEE_APP_H_
+#define INC_ZIGBEE_APP_H_
+
+
+
+#endif /* INC_ZIGBEE_APP_H_ */
