@@ -1,0 +1,7 @@
+# KiCAD project
+
+
+*.bak
+*sch-bak
+*.lck
+*autosave*

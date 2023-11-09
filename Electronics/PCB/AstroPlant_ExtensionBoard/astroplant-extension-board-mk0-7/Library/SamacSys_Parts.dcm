@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP STM32WB55CCU6
+D STMICROELECTRONICS - STM32WB55CCU6 - ????, STM32 STM32WB??, ARM Cortex-M4F, 32bit, 64MHz, UFQFPN-EP-48 - ????, STM32 STM32WB??, ARM Cortex-M4F, 32bit, 64MHz, UFQFPN-EP-48
+K
+F https://www.st.com/resource/en/datasheet/stm32wb55cc.pdf
+$ENDCMP
+#
+$CMP GRM1555C1HR80BA01D
+D Murata 0402 GRM 0.8pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.1pF SMD
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf
+$ENDCMP
+#
+$CMP GRM1555C1HR30WA01D
+D Murata 0402 GRM 0.3pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf
+$ENDCMP
+#
+$CMP LQG15HS2N7S02J
+D LQG15HS_02 Series Inductor 2.7nH +/-0.3nH 0402 (1005)
+K
+F https://psearch.en.murata.com/inductor/product/LQG15HS2N7S02%23.html
+$ENDCMP
+#
+$CMP LFB182G45CGFD436
+D Signal Conditioning
+K
+F https://www.mouser.fr/datasheet/2/281/murata_LFB182G45CGFD436-1186332.pdf
+$ENDCMP
+#
+$CMP GRM1555C1H1R2WA01D
+D Murata 0402 GRM 1.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf
+$ENDCMP
+#
+$CMP LQG15HS3N6S02D
+D Murata LQG15HS Series 3.6 nH +/-0.3nH Multilayer SMD Inductor, 0402 (1005M) Case, SRF: 6GHz Q: 8 300mA dc 180m Rdc
+K
+F https://psearch.en.murata.com/inductor/product/LQG15HS3N6S02%23.html
+$ENDCMP
+#
+$CMP 629105136821
+D Wurth Elektronik Right Angle SMT Female Type B Version 2 Micro USB Connector, 30 V ac, 1A
+K
+F http://katalog.we-online.de/em/datasheet/629105136821.pdf
+$ENDCMP
+#
+$CMP USBLC6-2SC6Y
+D Low Cap. ESD Protection Auto SOT-23-6 STMicroelectronics USBLC6-2SC6Y, Dual Uni-Directional TVS Diode Array, 6-Pin SOT-23
+K
+F https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.pdf
+$ENDCMP
+#
+#End Doc Library
