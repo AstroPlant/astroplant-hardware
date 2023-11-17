@@ -1,4 +1,10 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Astroplant_VFR-rescue")(type "Legacy")(uri "C:/Users/Aurel/Documents/Astroplant/Hardware/Depository_astroplant_hardware/astroplant-hardware/Electronics/PCB/AstroPlant_ExtensionBoard/astroplant-extension-board-mk0-6-1/Astroplant_VFR-rescue.lib")(options "")(descr ""))
+  (lib (name "Astroplant_AL-rescue")(type "Legacy")(uri "${KIPRJMOD}/Astroplant_AL-rescue.lib")(options "")(descr ""))
+  (lib (name "symbols")(type "Legacy")(uri "${RESSOURCES_PATH}/KiCad_AstroPlant_Lib/symbols.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "AstroPlant")(type "Legacy")(uri "${RESSOURCES_PATH}/KiCad_AstroPlant_Lib/schmatics_symbols/AstroPlant.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "other")(type "Legacy")(uri "${RESSOURCES_PATH}/KiCad_AstroPlant_Lib/schmatics_symbols/other.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "power")(type "Legacy")(uri "${RESSOURCES_PATH}/kicad-symbols/power.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "JST_connector")(type "Legacy")(uri "${RESSOURCES_PATH}/KiCad_AstroPlant_Lib/schmatics_symbols/JST_connector.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "SamacSys_Parts")(type "Legacy")(uri "${KIPRJMOD}/Library/SamacSys_Parts.lib")(options "")(descr ""))
 )

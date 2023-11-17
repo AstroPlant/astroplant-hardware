@@ -4,4 +4,6 @@
 *.bak
 *sch-bak
 *.lck
+*.zip
 *autosave*
+*Astroplant_AL-backups\*
