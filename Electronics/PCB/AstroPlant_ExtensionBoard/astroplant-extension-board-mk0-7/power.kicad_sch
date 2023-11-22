@@ -1444,43 +1444,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 118.11 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005b3f9fc7)
-    (property "Reference" "R11" (at 119.6086 96.6216 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "180" (at 119.6086 98.933 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 118.11 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" (at 118.11 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "ESR10EZPJ181" (at 118.11 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Digikey PN" "RHM180KCT-ND" (at 118.11 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9a009431-19de-46a6-827c-97dc907878e1))
-    (pin "2" (uuid 798018f9-738a-42b1-a834-1924d7caba8b))
-    (instances
-      (project "Astroplant_VFR"
-        (path "/4e818498-015c-45b7-982b-80c19490efdc/00000000-0000-0000-0000-00005a8053d4"
-          (reference "R11") (unit 1)
-        )
-      )
-      (project "Astroplant_AL"
-        (path "/51acab52-3cd6-4bba-9dee-c12efd332038/00000000-0000-0000-0000-00005a8053d4"
-          (reference "R11") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:LED") (at 118.11 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005b3fa062)
@@ -1740,6 +1703,38 @@
       (project "Astroplant_AL"
         (path "/51acab52-3cd6-4bba-9dee-c12efd332038/00000000-0000-0000-0000-00005a8053d4"
           (reference "JP5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 118.11 97.79 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8fd7fd27-2f05-425b-9b82-c1a12161daca)
+    (property "Reference" "R12" (at 120.65 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "180" (at 120.65 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 118.11 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 118.11 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CRCW0603180RFKEA" (at 118.11 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 98e8080b-0bb6-492f-a7c6-0c7b3e3776ce))
+    (pin "2" (uuid ff23bb36-14aa-4104-8195-540220d3d3e0))
+    (instances
+      (project "Astroplant_AL"
+        (path "/51acab52-3cd6-4bba-9dee-c12efd332038/5f0c961f-7fa6-4a15-8a74-755a432cc19e"
+          (reference "R12") (unit 1)
+        )
+        (path "/51acab52-3cd6-4bba-9dee-c12efd332038/00000000-0000-0000-0000-00005a8053d4"
+          (reference "R11") (unit 1)
         )
       )
     )
