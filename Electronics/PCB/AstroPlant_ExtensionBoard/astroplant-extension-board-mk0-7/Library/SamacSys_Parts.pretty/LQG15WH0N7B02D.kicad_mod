@@ -22,7 +22,7 @@
   (fp_line (start 0 -0.25) (end 0 0.25) (layer F.SilkS) (width 0.1))
   (pad 1 smd rect (at -0.425 -0 0) (size 0.350 0.650) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.425 -0 0) (size 0.350 0.650) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\LQG15HS3N6S02D.stp"
+  (model "Library/SamacSys_Parts.3dshapes/LQG15HS3N6S02D.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

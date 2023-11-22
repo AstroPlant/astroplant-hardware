@@ -70,7 +70,7 @@
   (pad 47 smd rect (at -2.25 -3.45 0) (size 0.3 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 48 smd rect (at -2.75 -3.45 0) (size 0.3 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 49 smd rect (at 0 0 0) (size 5.7 5.7) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\STM32WB55CCU6.stp"
+  (model "Library/SamacSys_Parts.3dshapes/STM32WB55CCU6.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

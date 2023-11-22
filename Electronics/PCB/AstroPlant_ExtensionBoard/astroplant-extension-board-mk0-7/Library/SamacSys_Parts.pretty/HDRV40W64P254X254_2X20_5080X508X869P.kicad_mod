@@ -62,7 +62,7 @@
   (pad 38 thru_hole circle (at 45.72 -2.54) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask))
   (pad 39 thru_hole circle (at 48.26 0) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask))
   (pad 40 thru_hole circle (at 48.26 -2.54) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask))
-  (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\61304021121.stp"
+  (model "Library/SamacSys_Parts.3dshapes/61304021121.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

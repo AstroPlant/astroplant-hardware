@@ -24,7 +24,7 @@
   (fp_line (start -0.6 0.4) (end 0.6 0.4) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -0.725 0 90) (size 0.42 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.725 0 90) (size 0.42 0.7) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\BAT54KFILM.stp"
+  (model "Library/SamacSys_Parts.3dshapes/BAT54KFILM.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
