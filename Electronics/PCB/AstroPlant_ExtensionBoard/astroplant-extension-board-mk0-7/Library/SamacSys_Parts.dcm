@@ -60,4 +60,64 @@ K
 F https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.pdf
 $ENDCMP
 #
+$CMP B3B-XH-A_LF__SN_
+D CONN HEADER VERT 3POS 2.5MM
+K
+F https://datasheet.lcsc.com/szlcsc/1812131720_JST-Sales-America-B3B-XH-A-LF-SN_C144394.pdf
+$ENDCMP
+#
+$CMP B6B-XH-A_LF__SN_
+D CONN HEADER VERT 6POS 2.5MM
+K
+F https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B6B-XH-A-LF-SN_C144397.pdf
+$ENDCMP
+#
+$CMP B2B-XH-A
+D Wire-board; socket; male; XH; 2.5mm; PIN:2; THT; 250V; 3A; -2585C
+K
+F https://order.jst-mfg.com/InternetShop/app/pdf_show.php?kbn=3&key=XH%20CONNECTOR%20THROUGH-HOLE%20TYPE%20SHROUDED%20HEADER.pdf
+$ENDCMP
+#
+$CMP B4B-XH-A_LF__SN_
+D CONN HEADER VERT 4POS 2.5MM
+K
+F https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B4B-XH-A-LF-SN_C144395.pdf
+$ENDCMP
+#
+$CMP 691102710002
+D Wurth Elektronik 102 Series 5mm Pitch Straight, PCB Terminal Block, Through Hole, 2 Way
+K
+F https://www.mouser.in/datasheet/2/445/691102710002-1719152.pdf
+$ENDCMP
+#
+$CMP 61304021121
+D WR-PHD 2.54mm  Dual Pin Header THT 40p Wurth Elektronik WR-PHD Series, Series Number 6130, 2.54mm Pitch 40 Way 2 Row Straight PCB Header, Solder Termination
+K
+F https://katalog.we-online.com/em/datasheet/6130xx21121.pdf
+$ENDCMP
+#
+$CMP B5B-XH-A_LF__SN_
+D XH connector, 5 way
+K
+F http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+$ENDCMP
+#
+$CMP LD39050PU33R
+D STMICROELECTRONICS - LD39050PU33R - LDO, FIXED, 3.3V, 0.5A, DFN-6
+K
+F https://componentsearchengine.com/Datasheets/2/LD39050PU33R.pdf
+$ENDCMP
+#
+$CMP BAT54KFILM
+D BAT54KFILM, Schottky Diode,  0.3A max, 40V 5ns, 2-Pin, SOD-523
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001322.pdf
+$ENDCMP
+#
+$CMP 885012207027
+D Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0805 100pF X7R0805101K016DFCT10000
+K
+F https://katalog.we-online.com/pbs/datasheet/885012207027.pdf
+$ENDCMP
+#
 #End Doc Library
