@@ -85,7 +85,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 3c452752-86a8-4b8d-aa4c-c411db0f0782))
   (pad "1" thru_hole rect (at 0.003779 0.047181) (size 1.7 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e34afa63-83c1-497c-8328-3ec9b0b58a96))
   (pad "2" thru_hole oval (at 2.503779 0.047181) (size 1.7 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 7990e955-31cc-426a-8002-fa3c92cfbfea))
-  (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\B2B-XH-A.stp"
+  (model "Library/SamacSys_Parts.3dshapes/B2B-XH-A.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

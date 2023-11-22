@@ -87,7 +87,7 @@
   (pad "2" thru_hole oval (at 2.496646 0.052295) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask") (tstamp 606fa299-d07e-4e89-8104-4843e716af73))
   (pad "3" thru_hole oval (at 4.996646 0.052295) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask") (tstamp a8cbc065-ed4b-451a-aba8-9734d0c855ca))
   (pad "4" thru_hole oval (at 7.496646 0.052295) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask") (tstamp b4e0372b-8a23-4c66-b8aa-186cb2fb4c4a))
-  (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\B4B-XH-A_LF__SN_.stp"
+  (model "Library/SamacSys_Parts.3dshapes/B4B-XH-A_LF__SN_.stp"
     (offset (xyz -43.4099992 -21.62999884 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))
