@@ -675,12 +675,7 @@
       (net 6 "Net-(AE1-A)") (pinfunction "1") (pintype "passive") (tstamp b0633bbf-0528-4236-8bda-17d8a7959287))
     (pad "2" smd rect (at 0.46 0) (size 0.6 0.62) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "2") (pintype "passive") (tstamp acc8872b-4808-46c9-8f71-f8f1e3d8fa39))
-<<<<<<< Updated upstream
     (model "Library/SamacSys_Parts.3dshapes/GRM1555C1H1R2WA01D.stp"
-
-=======
-    (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\GRM1555C1H1R2WA01D.stp"
->>>>>>> Stashed changes
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -980,13 +975,8 @@
     (pad "5" thru_hole oval (at 9.993056 0.042449 270) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask")
       (net 29 "GPIO25") (pinfunction "CH3") (pintype "input") (tstamp 4146679b-1866-426a-b1a3-75341556f422))
     (pad "6" thru_hole oval (at 12.493056 0.042449 270) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask")
-<<<<<<< Updated upstream
-      (net 45 "GPIO26") (pinfunction "CH4") (pintype "input") (tstamp c32aef27-bb9c-429a-a30a-25e8e5eea36a))
-    (model "Library/SamacSys_Parts.3dshapes/B6B-XH-A_LF__SN_.stp"
-=======
       (net 41 "GPIO26") (pinfunction "CH4") (pintype "input") (tstamp c32aef27-bb9c-429a-a30a-25e8e5eea36a))
-    (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\B6B-XH-A_LF__SN_.stp"
->>>>>>> Stashed changes
+    (model "Library/SamacSys_Parts.3dshapes/B6B-XH-A_LF__SN_.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3922,13 +3912,8 @@
     (pad "1" smd rect (at -0.725 0) (size 0.42 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 94 "Net-(D1-Pad1)") (pintype "passive") (tstamp b3eee398-9165-48e1-a169-83906c0185d1))
     (pad "2" smd rect (at 0.725 0) (size 0.42 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
-<<<<<<< Updated upstream
-      (net 97 "Net-(U2-NRST)") (pintype "passive") (tstamp 7079173a-b405-44c1-9aee-19a72e06965f))
-    (model "Library/SamacSys_Parts.3dshapes/BAT54KFILM.stp"
-=======
       (net 93 "Net-(U2-NRST)") (pintype "passive") (tstamp 7079173a-b405-44c1-9aee-19a72e06965f))
-    (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\BAT54KFILM.stp"
->>>>>>> Stashed changes
+    (model "Library/SamacSys_Parts.3dshapes/BAT54KFILM.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4753,12 +4738,7 @@
       (net 5 "+24V") (pinfunction "A") (pintype "passive") (tstamp 551d19a9-9250-4129-9d09-7ff949dd1856))
     (pad "2" thru_hole oval (at 2.503779 0.047181 180) (size 1.7 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 8 "Net-(D2-A)") (pinfunction "B") (pintype "passive") (tstamp bee3483b-3fad-4d80-8321-319bbd7940ce))
-<<<<<<< Updated upstream
     (model "Library/SamacSys_Parts.3dshapes/B2B-XH-A.stp"
-
-=======
-    (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\B2B-XH-A.stp"
->>>>>>> Stashed changes
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4966,12 +4946,7 @@
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp c7d5681d-e84f-4e57-846a-0e612a8e2bb1))
     (pad "3" smd rect (at -0.56 0) (size 0.28 0.55) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "Net-(FL1-OUT)") (pinfunction "OUT") (pintype "passive") (tstamp 8ebe7a0f-1931-42e1-962d-33cc8500c5d5))
-<<<<<<< Updated upstream
     (model "Library/SamacSys_Parts.3dshapes/LFB182G45CGFD436.stp"
-
-=======
-    (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\LFB182G45CGFD436.stp"
->>>>>>> Stashed changes
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5826,13 +5801,8 @@
     (pad "39" thru_hole circle (at 48.26 0 270) (size 1.65 1.65) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 12a5540c-e6fa-4240-ba4a-fe85453773d4))
     (pad "40" thru_hole circle (at 48.26 -2.54 270) (size 1.65 1.65) (drill 1.1) (layers "*.Cu" "*.Mask")
-<<<<<<< Updated upstream
-      (net 47 "GPIO21") (pinfunction "GPIO21/SCLK1") (pintype "bidirectional") (tstamp b11c1217-7359-4802-8158-88abe448752a))
-    (model "Library/SamacSys_Parts.3dshapes/61304021121.stp"
-=======
       (net 43 "GPIO21") (pinfunction "GPIO21/SCLK1") (pintype "bidirectional") (tstamp b11c1217-7359-4802-8158-88abe448752a))
-    (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\61304021121.stp"
->>>>>>> Stashed changes
+    (model "Library/SamacSys_Parts.3dshapes/61304021121.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
