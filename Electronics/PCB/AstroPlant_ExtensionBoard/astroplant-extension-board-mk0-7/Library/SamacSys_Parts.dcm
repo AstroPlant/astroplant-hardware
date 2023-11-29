@@ -120,4 +120,40 @@ K
 F https://katalog.we-online.com/pbs/datasheet/885012207027.pdf
 $ENDCMP
 #
+$CMP GRM185R61C105KE44D
+D MURATA - GRM185R61C105KE44D - CAP, MLCC, X5R, 1UF, 16V, 0603
+K
+F https://componentsearchengine.com/Datasheets/2/GRM185R61C105KE44D.pdf
+$ENDCMP
+#
+$CMP CONUFL001-SMD-T
+D RF Connectors / Coaxial Connectors T&R U.FL Straight Surface Mount Jack
+K
+F https://linxtechnologies.com/wp/product/mhf-rf-connectors/
+$ENDCMP
+#
+$CMP 450404015514
+D Slide Switch SPDT Surface Mount
+K
+F https://katalog.we-online.de/em/datasheet/450404015514.pdf
+$ENDCMP
+#
+$CMP 61300621121
+D WR-PHD 2.54mm  Dual Pin Header THT 06p Wurth Elektronik WR-PHD Series, Series Number 6130, 2.54mm Pitch 6 Way 2 Row Straight PCB Header, Solder Termination
+K
+F 
+$ENDCMP
+#
+$CMP A771MS107M1JLAS018
+D Surface Mount, Polymer Aluminum
+K
+F https://search.kemet.com/download/datasheet/A771MS107M1JLAS018
+$ENDCMP
+#
+$CMP 875115652007
+D Aluminium Organic Polymer Capacitors WCAP-PSHP 35V 100uF 20% ESR=30mOhms
+K
+F https://www.we-online.com/catalog/datasheet/875115652007.pdf
+$ENDCMP
+#
 #End Doc Library
