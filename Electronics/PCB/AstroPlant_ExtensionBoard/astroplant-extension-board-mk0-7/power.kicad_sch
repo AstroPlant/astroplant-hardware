@@ -2317,41 +2317,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 250.19 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid df0f00d4-b560-49df-a9be-07ac500c315a)
-    (property "Reference" "C9" (at 252.73 134.6263 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100nF" (at 252.73 137.1663 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 250.19 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 250.19 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "VJ0603Y104MXJCW1BC" (at 250.19 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 00b3a41e-c611-4672-aa68-7ddb57318271))
-    (pin "2" (uuid ffb20bf1-859f-43ac-9b9e-c13d34f3aaef))
-    (instances
-      (project "Astroplant_AL"
-        (path "/51acab52-3cd6-4bba-9dee-c12efd332038/5f0c961f-7fa6-4a15-8a74-755a432cc19e"
-          (reference "C9") (unit 1)
-        )
-        (path "/51acab52-3cd6-4bba-9dee-c12efd332038"
-          (reference "C1") (unit 1)
-        )
-        (path "/51acab52-3cd6-4bba-9dee-c12efd332038/00000000-0000-0000-0000-00005a8053d4"
-          (reference "C22") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "SamacSys_Parts:GRM185R61C105KE44D") (at 180.34 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e18cace0-7216-479d-b41c-49ffc80f9793)

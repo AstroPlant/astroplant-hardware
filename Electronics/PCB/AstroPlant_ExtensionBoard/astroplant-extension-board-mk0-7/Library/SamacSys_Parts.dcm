@@ -156,4 +156,10 @@ K
 F https://www.we-online.com/catalog/datasheet/875115652007.pdf
 $ENDCMP
 #
+$CMP ZX62D-B-5PA8_30_
+D USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole
+K
+F https://www.hirose.com/en/product/document?clcode=CL0242-0056-3-30&productname=ZX62D-B-5PA8(30)&series=ZX&documenttype=2DDrawing&lang=en&documentid=0001147958
+$ENDCMP
+#
 #End Doc Library
