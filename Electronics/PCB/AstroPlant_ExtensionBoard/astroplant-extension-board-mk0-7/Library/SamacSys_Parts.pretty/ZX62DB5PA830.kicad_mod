@@ -56,7 +56,7 @@
   (pad "MH4" thru_hole circle (at -3.512 0.05) (size 2.425 2.425) (drill 1.71) (layers "*.Cu" "*.Mask") (tstamp 7b022f5e-4447-4848-bb09-660ee3092ea8))
   (pad "MP1" smd rect (at -1.15 0.05) (size 1.8 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 42ddf561-06d7-4140-a3db-40f638ebedce))
   (pad "MP2" smd rect (at 1.15 0.05) (size 1.8 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 71cfa9fd-1074-4f87-a94f-0556e48f0013))
-  (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\ZX62D-B-5PA8_30_.stp"
+  (model "Library/SamacSys_Parts.3dshapes/ZX62D-B-5PA8_30_.stp"
     (offset (xyz 0 -0.1099999978 0.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

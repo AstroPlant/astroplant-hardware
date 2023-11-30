@@ -21,7 +21,7 @@
   (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
   (pad 1 smd rect (at -0.7 0 0) (size 0.75 0.94) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.7 0 0) (size 0.75 0.94) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\GRM185R61C105KE44D.stp"
+  (model "Library/SamacSys_Parts.3dshapes/GRM185R61C105KE44D.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

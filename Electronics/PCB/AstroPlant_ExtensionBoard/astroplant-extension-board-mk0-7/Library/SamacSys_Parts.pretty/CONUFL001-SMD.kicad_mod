@@ -22,7 +22,7 @@
   (pad 1 smd rect (at 0 1.525 0) (size 1 1.05) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.475 0 0) (size 1.05 2.2) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.475 0 0) (size 1.05 2.2) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\CONUFL001-SMD-T.stp"
+  (model "Library/SamacSys_Parts.3dshapes/CONUFL001-SMD-T.stp"
     (at (xyz 0 0.0015748031144067 0.0070866144548251))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
