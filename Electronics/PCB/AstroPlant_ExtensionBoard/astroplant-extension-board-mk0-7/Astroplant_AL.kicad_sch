@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Main sheet")
+    (date "2023-10-13")
+    (rev "0.7")
+    (comment 1 "Aurélien Lesage")
+  )
+
   (lib_symbols
     (symbol "Astroplant_VFR-rescue:+3.3V-power" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
