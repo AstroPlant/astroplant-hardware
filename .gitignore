@@ -4,3 +4,5 @@ Electronics/PCB/AstroPlant_ExtensionBoard/astroplant-extension-board-mk0-5/Astro
 Electronics/PCB/AstroPlant_ExtensionBoard/astroplant-extension-board-mk0-6-1/Astroplant_VFR-backups/*
 
 Electronics/PCB/AstroPlant_ExtensionBoard/astroplant-extension-board-mk0-7/Library/kicad-symbols-master/*
+Electronics/PCB/AstroPlant_ExtensionBoard/astroplant-extension-board-mk0-7/fp-info-cache
+*.kicad_prl
