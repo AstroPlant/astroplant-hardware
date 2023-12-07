@@ -162,4 +162,10 @@ K
 F https://www.hirose.com/en/product/document?clcode=CL0242-0056-3-30&productname=ZX62D-B-5PA8(30)&series=ZX&documenttype=2DDrawing&lang=en&documentid=0001147958
 $ENDCMP
 #
+$CMP NX2016SA-32M-EXS00A-CS06465
+D CRYSTAL 32MHZ 10PF SMD
+K
+F http://www.ndk.com/images/products/catalog/c_NX2016SA_e.pdf
+$ENDCMP
+#
 #End Doc Library
