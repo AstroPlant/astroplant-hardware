@@ -28,7 +28,7 @@
   (pad 1 smd rect (at 0.560 -0 0) (size 0.280 0.550) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.000 -0 0) (size 0.400 0.600) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -0.560 -0 0) (size 0.280 0.550) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\Aurel\\Documents\\Astroplant\\Hardware\\Depository_astroplant_hardware\\astroplant-hardware\\Electronics\\PCB\\AstroPlant_ExtensionBoard\\astroplant-extension-board-mk0-7\\Library\\SamacSys_Parts.3dshapes\\LFB182G45CGFD436.stp"
+  (model "Library/SamacSys_Parts.3dshapes/LFB182G45CGFD436.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
