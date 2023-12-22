@@ -69,8 +69,8 @@ all: main-build
 main-build: Nucleo_developpement.elf secondary-outputs
 
 # Tool invocations
-Nucleo_developpement.elf Nucleo_developpement.map: $(OBJS) $(USER_OBJS) C:\Users\Aurel\Documents\Astroplant\Soft_developpement_board_zigbee\Nucleo_developpement\STM32WB55RGVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Nucleo_developpement.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Aurel\Documents\Astroplant\Soft_developpement_board_zigbee\Nucleo_developpement\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Nucleo_developpement.map" -Wl,--gc-sections -static -L../Middlewares/ST/STM32_WPAN/zigbee/lib --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Nucleo_developpement.elf Nucleo_developpement.map: $(OBJS) $(USER_OBJS) C:\Users\Aurel\Documents\Astroplant\Hardware\Depository_astroplant_hardware\astroplant-hardware\Software\Nucleo_developpement\STM32WB55RGVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Nucleo_developpement.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Aurel\Documents\Astroplant\Hardware\Depository_astroplant_hardware\astroplant-hardware\Software\Nucleo_developpement\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Nucleo_developpement.map" -Wl,--gc-sections -static -L../Middlewares/ST/STM32_WPAN/zigbee/lib --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -278,7 +278,7 @@ static void APP_ZIGBEE_NwkForm(void)
       zigbee_app_info.init_after_join = true;
       APP_DBG("Startup done !\n");
       /* USER CODE BEGIN 0 */
-
+      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_SET);
       /* USER CODE END 0 */
     }
     else
@@ -289,6 +289,7 @@ static void APP_ZIGBEE_NwkForm(void)
 
       /* USER CODE END 1 */
     }
+
   }
 
   /* If Network forming/joining was not successful reschedule the current task to retry the process */

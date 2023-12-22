@@ -55,7 +55,9 @@ UART_HandleTypeDef huart1;
 
 PCD_HandleTypeDef hpcd_USB_FS;
 
+
 /* USER CODE BEGIN PV */
+UART_HandleTypeDef hlpuart1;
 /* Buffer used for transmission */
 uint8_t aTxBuffer[] = "Hello raspi\n";
 /* Buffer used for reception */
@@ -76,6 +78,7 @@ static void MX_USB_PCD_Init(void);
 static void MX_MEMORYMAP_Init(void);
 static void MX_RTC_Init(void);
 static void MX_RF_Init(void);
+static void MX_LPUART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -127,7 +130,10 @@ int main(void)
   MX_MEMORYMAP_Init();
   MX_RTC_Init();
   MX_RF_Init();
+
   /* USER CODE BEGIN 2 */
+  MX_LPUART1_UART_Init();
+
   /* Register task */
     //Task associated with the SPI reception and read
   	UTIL_SEQ_RegTask(1U << CFG_TASK_SPI_read, UTIL_SEQ_RFU, APP_SPIread_Process);
@@ -149,6 +155,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  HAL_Delay(50);
   while (1)
   {
     /* USER CODE END WHILE */
@@ -464,6 +471,8 @@ static void MX_USART1_UART_Init(void)
 
 }
 
+
+
 /**
   * @brief USB Initialization Function
   * @param None
@@ -541,6 +550,54 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+/**
+  * @brief LPUART1 Initialization Function
+  * @param None
+  * @retval None
+  */
+void MX_LPUART1_UART_Init(void)
+{
+
+  /* USER CODE BEGIN LPUART1_Init 0 */
+
+  /* USER CODE END LPUART1_Init 0 */
+
+  /* USER CODE BEGIN LPUART1_Init 1 */
+
+  /* USER CODE END LPUART1_Init 1 */
+  hlpuart1.Instance = LPUART1;
+  hlpuart1.Init.BaudRate = 115200;
+  hlpuart1.Init.WordLength = UART_WORDLENGTH_8B;
+  hlpuart1.Init.StopBits = UART_STOPBITS_1;
+  hlpuart1.Init.Parity = UART_PARITY_NONE;
+  hlpuart1.Init.Mode = UART_MODE_TX_RX;
+  hlpuart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  hlpuart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  hlpuart1.Init.ClockPrescaler = UART_PRESCALER_DIV1;
+  hlpuart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  hlpuart1.FifoMode = UART_FIFOMODE_DISABLE;
+  if (HAL_UART_Init(&hlpuart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_SetTxFifoThreshold(&hlpuart1, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_SetRxFifoThreshold(&hlpuart1, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_DisableFifoMode(&hlpuart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN LPUART1_Init 2 */
+
+  /* USER CODE END LPUART1_Init 2 */
+
+}
 /**
   * @brief  TxRx Transfer completed callback.
   * @param  hspi: SPI handle
@@ -551,9 +608,9 @@ static void MX_GPIO_Init(void)
 void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
 {
 
-  /* Turn LED1 on: Transfer in transmission process is complete */
+  /* Turn 1 on: Transfer in transmission process is complete */
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_SET);
-  /* Turn LED2 on: Transfer in reception process is complete */
+  /* Turn 2 on: Transfer in reception process is complete */
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
 	wTransferState = TRANSFER_COMPLETE;
 	UTIL_SEQ_SetTask(1U << CFG_TASK_SPI_read, CFG_SCH_PRIO_0);

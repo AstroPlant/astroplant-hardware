@@ -1,4 +1,4 @@
-22247969055320353
+22251401428490439
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84749,6 +84749,13 @@ Connector
 3
 3
 SamacSys_Parts
+DEA162450BT1295A1
+DEA162450BT-1295A1
+Filter
+0
+4
+4
+SamacSys_Parts
 HDRV6W64P254_2X3_762X508X889P
 WR-PHD
 Connector
@@ -84790,6 +84797,13 @@ Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+NX2016SA32MEXS00ACS06465
+NX2016SA-32M-EXS00A-CS06465-2
+Crystal or Oscillator
+0
+4
+4
 SamacSys_Parts
 QFN50P700X700X60-49N-D
 UFQFPN48 package
