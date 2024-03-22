@@ -1,3 +1,23 @@
+## Power supply configuration
+You can select different configuration to supply the board, 
+	On the 3.3V line: you can choose between power the board with the raspberry or with the onboard 3.3V generator
+	On the 5V line you can choose to power the board through :
+		Raspberry pi,
+		Board 5V input,
+		micro-USB
+		
+With the astroplant-kit you need 2 jumper :
+		connect 3.3V with the onboard generator
+		connect 5V to the Board 5V input,
+
+## Boot-mode
+To program the board you need the microcontroller to enter boot-mode, to do this power the board while pushing Boot button, or reset the board while pushing Boot button,
+To leave Boot-mode, reset the board with the button, or switch the power Off and On without pushing on boot button
+
+## Antenna 
+Don't place R26 and C6 if you want to use the PCB antenna
+or Don't place R25 to use the UFL connector with an antenna
+
 ## To manufacture the PCB you need these files:
   - gerber - track/component placement
   - .drl - drill placement 
@@ -16,7 +36,6 @@ For each file, select the output directory before generating
 We'll use the general parameter for output files.
 For Gerber, select layers: B_Cu,B_Mask,B_Paste,B_Silkscreen,F_Cu,F_Mask,F_Paste,F_Silkscreen,Edge_Cuts and User_Eco2
 and leave the other options as they are.
- 
 
 # MK07
 
