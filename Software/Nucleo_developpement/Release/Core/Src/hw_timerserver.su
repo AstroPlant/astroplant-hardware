@@ -1,0 +1,12 @@
+../Core/Src/hw_timerserver.c:107:17:ReadRtcSsrValue	0	static
+../Core/Src/hw_timerserver.c:252:13:UnlinkTimer	20	static
+../Core/Src/hw_timerserver.c:294:17:ReturnTimeElapsed	8	static
+../Core/Src/hw_timerserver.c:395:13:RescheduleTimerList	24	static
+../Core/Src/hw_timerserver.c:589:6:HW_TS_Init	16	static,ignoring_inline_asm
+../Core/Src/hw_timerserver.c:670:22:HW_TS_Create	32	static,ignoring_inline_asm
+../Core/Src/hw_timerserver.c:724:6:HW_TS_Stop	16	static,ignoring_inline_asm
+../Core/Src/hw_timerserver.c:715:6:HW_TS_Delete	8	static
+../Core/Src/hw_timerserver.c:796:6:HW_TS_Start	32	static,ignoring_inline_asm
+../Core/Src/hw_timerserver.c:850:10:HW_TS_RTC_ReadLeftTicksToCount	16	static,ignoring_inline_asm
+../Core/Src/hw_timerserver.c:883:13:HW_TS_RTC_Int_AppNot	0	static
+../Core/Src/hw_timerserver.c:487:6:HW_TS_RTC_Wakeup_Handler	40	static,ignoring_inline_asm
