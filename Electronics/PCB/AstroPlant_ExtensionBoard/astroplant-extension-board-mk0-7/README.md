@@ -37,6 +37,21 @@ We'll use the general parameter for output files.
 For Gerber, select layers: B_Cu,B_Mask,B_Paste,B_Silkscreen,F_Cu,F_Mask,F_Paste,F_Silkscreen,Edge_Cuts and User_Eco2
 and leave the other options as they are.
 
+
+Please note that if you have added new components, add an "MPN" (Manufacturer part number) field in the properties of 
+these parts, which is the part identification number; this field will be used to generate the BOM. 
+
+To generate the Bill of mateial (BOM) open the schematic editor 
+and do: Tools -> Generate BOM and select bom_generator_astroplant in the folder bom, this is 
+a python script that generates a BOM compatible with Eurocircuit.
+
+
+Now that you have the output files you can have them manufactured and even have the components 
+placed if you have the BOM, for example on Eurcocircuits.com
+
+Here is a tutorial to do that : https://docs.google.com/document/d/1_ITujiSZbh2MQ0I3NJUg4zAOC5qoafzlOR5tIkIVDLY/edit?usp=sharing
+
+
 # MK07
 
 ## Specs

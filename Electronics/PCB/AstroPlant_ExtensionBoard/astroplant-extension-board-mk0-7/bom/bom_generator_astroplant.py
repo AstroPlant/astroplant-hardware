@@ -7,9 +7,8 @@
 """
     @package
     Output: CSV (comma-separated)
-    Grouped By: Value, Footprint, DNP
     Sorted By: Ref
-    Fields: Ref, Qnty, Value, MPN(manufacturer component name)
+    Fields: Ref, Qnty, MPN(manufacturer component name)
 
     Command line:
     python "pathToFile/bom_csv_grouped_by_value_with_fp.py" "%I" "%O.csv"
@@ -45,9 +44,8 @@ out = csv.writer(f, lineterminator='\n', delimiter=',', quotechar='\"', quoting=
 # Output a set of rows for a header providing general information
 out.writerow(['Date:', net.getDate()])
 out.writerow(['Tool:', net.getTool()])
-out.writerow( ['Generator:', sys.argv[0]] )
 out.writerow(['Component Count:', len(net.components)])
-out.writerow(['Ref', 'Qnty', 'Value', 'MPN'])
+out.writerow(['Ref', 'Qnty', 'MPN'])
 
 
 # Get all of the components in groups of matching parts + values
@@ -68,7 +66,6 @@ for group in grouped:
 
     # Fill in the component groups common data
     out.writerow([refs, len(group),
-        fromNetlistText( c.getValue() ),
         fromNetlistText( c.getField("MPN")),
         c.getDNPString()])
 

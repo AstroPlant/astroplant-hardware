@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "Astroplant_AL-rescue")(type "Legacy")(uri "${KIPRJMOD}/Astroplant_AL-rescue.lib")(options "")(descr ""))
-  (lib (name "SamacSys_Parts")(type "Legacy")(uri "${KIPRJMOD}/Library/SamacSys_Parts.lib")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/Library/SamacSys_Parts.kicad_sym")(options "")(descr ""))
 )

@@ -168,4 +168,16 @@ K
 F http://www.ndk.com/images/products/catalog/c_NX2016SA_e.pdf
 $ENDCMP
 #
+$CMP MLPF-WB55-01E3
+D RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55
+K
+F https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf
+$ENDCMP
+#
+$CMP 142-0701-801
+D JOHNSON - 142-0701-801 - \u5C04\u9891/\u540C\u8F74\u63D2\u5B54, SMA, PCB\u5B89\u88C5
+K
+F http://www.farnell.com/datasheets/2048966.pdf
+$ENDCMP
+#
 #End Doc Library

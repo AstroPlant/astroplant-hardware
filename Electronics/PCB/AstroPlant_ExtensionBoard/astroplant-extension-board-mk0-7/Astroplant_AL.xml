@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Aurel\Documents\Astroplant\Hardware\Depository_astroplant_hardware\astroplant-hardware\Electronics\PCB\AstroPlant_ExtensionBoard\astroplant-extension-board-mk0-7\Astroplant_AL.kicad_sch</source>
-    <date>12/22/2023 2:52:37 PM</date>
+    <date>5/12/2024 12:24:48 PM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -97,13 +97,15 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>VJ0603Y104MXJCW1BC</value>
+      <value>GPC0603104-25 </value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">VJ0603Y104MXJCW1BC</field>
+        <field name="Capacitance">100nF</field>
+        <field name="MPN">GPC0603104-25 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y104MXJCW1BC"/>
+      <property name="MPN" value="GPC0603104-25 "/>
+      <property name="Capacitance" value="100nF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Astroplant_AL.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -112,13 +114,15 @@
       <tstamps>838cfca0-240d-4bbe-964f-e9e1ff4feafa</tstamps>
     </comp>
     <comp ref="C2">
-      <value>VJ0603Y104MXJCW1BC</value>
+      <value>GPC0603104-25 </value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">VJ0603Y104MXJCW1BC</field>
+        <field name="Capacitance">100nF</field>
+        <field name="MPN">GPC0603104-25 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y104MXJCW1BC"/>
+      <property name="MPN" value="GPC0603104-25 "/>
+      <property name="Capacitance" value="100nF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Astroplant_AL.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -349,13 +353,13 @@
       <tstamps>00000000-0000-0000-0000-00005a8369e1</tstamps>
     </comp>
     <comp ref="R1">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Astroplant_AL.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -364,13 +368,13 @@
       <tstamps>0f7cccb4-a0df-4a87-828e-d5d7e9fc9a86</tstamps>
     </comp>
     <comp ref="R2">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Astroplant_AL.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -379,13 +383,13 @@
       <tstamps>4ae871e7-fea7-4c36-8b5e-fa70003fdc80</tstamps>
     </comp>
     <comp ref="R3">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Astroplant_AL.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -394,13 +398,13 @@
       <tstamps>05b65723-dab8-4b87-bb3f-7eb479bb0861</tstamps>
     </comp>
     <comp ref="R4">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Astroplant_AL.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -409,13 +413,13 @@
       <tstamps>4f4e7ab8-85d7-49e1-b28b-c92161248be9</tstamps>
     </comp>
     <comp ref="R5">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Astroplant_AL.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -424,13 +428,13 @@
       <tstamps>49ca4ba5-306e-4e80-a63b-95bf4eb5b0b1</tstamps>
     </comp>
     <comp ref="R7">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Astroplant_AL.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -497,12 +501,14 @@
       <footprint>Capacitor_SMD:CP_Elec_8x6.9</footprint>
       <datasheet>http://katalog.we-online.de/pbs/datasheet/875115150005.pdf</datasheet>
       <fields>
+        <field name="Capacitance">470uF</field>
         <field name="Digikey PN">732-6443-1-ND</field>
         <field name="MPN">875115150005</field>
       </fields>
       <libsource lib="Astroplant_VFR-rescue" part="CP_Small-Device" description=""/>
       <property name="MPN" value="875115150005"/>
       <property name="Digikey PN" value="732-6443-1-ND"/>
+      <property name="Capacitance" value="470uF"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/00000000-0000-0000-0000-00005a8053d4/"/>
@@ -513,6 +519,7 @@
       <footprint>CAPAE830X900N</footprint>
       <datasheet>https://www.we-online.com/catalog/datasheet/875115652007.pdf</datasheet>
       <fields>
+        <field name="Capacitance">100uF</field>
         <field name="Description">Aluminium Organic Polymer Capacitors WCAP-PSHP 35V 100uF 20% ESR=30mOhms</field>
         <field name="Height">9</field>
         <field name="MPN">875115652007</field>
@@ -531,6 +538,7 @@
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
       <property name="MPN" value="875115652007"/>
+      <property name="Capacitance" value="100uF"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_description" value="Aluminium Organic Polymer Capacitors WCAP-PSHP 35V 100uF 20% ESR=30mOhms"/>
@@ -538,28 +546,15 @@
       <tstamps>3cab34ca-1510-4050-a40e-bd073a7b4586</tstamps>
     </comp>
     <comp ref="C15">
-      <value>GRM185R61C105KE44D</value>
-      <footprint>CAPC1608X50N</footprint>
-      <datasheet>https://componentsearchengine.com/Datasheets/2/GRM185R61C105KE44D.pdf</datasheet>
+      <value>GPC0603105-16</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm185r61c105ke44d/murata-manufacturing</field>
-        <field name="Description">MURATA - GRM185R61C105KE44D - CAP, MLCC, X5R, 1UF, 16V, 0603</field>
-        <field name="Height">0.5</field>
-        <field name="MPN">GRM185R61C105KE44D</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM185R61C105KE44D</field>
-        <field name="Mouser Part Number">81-GRM185R61C105KE44</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM185R61C105KE44D?qs=c4yvaafl%252BAw5enNBKMnY3A%3D%3D</field>
+        <field name="Capacitance">1uF</field>
+        <field name="MPN">GPC0603105-16</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="GRM185R61C105KE44D" description="MURATA - GRM185R61C105KE44D - CAP, MLCC, X5R, 1UF, 16V, 0603"/>
-      <property name="Description" value="MURATA - GRM185R61C105KE44D - CAP, MLCC, X5R, 1UF, 16V, 0603"/>
-      <property name="Height" value="0.5"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="GRM185R61C105KE44D"/>
-      <property name="Mouser Part Number" value="81-GRM185R61C105KE44"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM185R61C105KE44D?qs=c4yvaafl%252BAw5enNBKMnY3A%3D%3D"/>
-      <property name="MPN" value="GRM185R61C105KE44D"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/grm185r61c105ke44d/murata-manufacturing"/>
+      <property name="MPN" value="GPC0603105-16"/>
+      <property name="Capacitance" value="1uF"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_description" value="MURATA - GRM185R61C105KE44D - CAP, MLCC, X5R, 1UF, 16V, 0603"/>
@@ -567,28 +562,17 @@
       <tstamps>e18cace0-7216-479d-b41c-49ffc80f9793</tstamps>
     </comp>
     <comp ref="C16">
-      <value>GRM185R61C105KE44D</value>
-      <footprint>CAPC1608X50N</footprint>
-      <datasheet>https://componentsearchengine.com/Datasheets/2/GRM185R61C105KE44D.pdf</datasheet>
+      <value>GPC0603105-16</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm185r61c105ke44d/murata-manufacturing</field>
-        <field name="Description">MURATA - GRM185R61C105KE44D - CAP, MLCC, X5R, 1UF, 16V, 0603</field>
-        <field name="Height">0.5</field>
-        <field name="MPN">GRM185R61C105KE44D</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM185R61C105KE44D</field>
-        <field name="Mouser Part Number">81-GRM185R61C105KE44</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM185R61C105KE44D?qs=c4yvaafl%252BAw5enNBKMnY3A%3D%3D</field>
+        <field name="Capacitance">1uF</field>
+        <field name="MPN">GPC0603105-16</field>
+        <field name="Manufacturer_Part_Number">GPC0603105-16</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="GRM185R61C105KE44D" description="MURATA - GRM185R61C105KE44D - CAP, MLCC, X5R, 1UF, 16V, 0603"/>
-      <property name="Description" value="MURATA - GRM185R61C105KE44D - CAP, MLCC, X5R, 1UF, 16V, 0603"/>
-      <property name="Height" value="0.5"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="GRM185R61C105KE44D"/>
-      <property name="Mouser Part Number" value="81-GRM185R61C105KE44"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM185R61C105KE44D?qs=c4yvaafl%252BAw5enNBKMnY3A%3D%3D"/>
-      <property name="MPN" value="GRM185R61C105KE44D"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/grm185r61c105ke44d/murata-manufacturing"/>
+      <property name="Manufacturer_Part_Number" value="GPC0603105-16"/>
+      <property name="MPN" value="GPC0603105-16"/>
+      <property name="Capacitance" value="1uF"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_description" value="MURATA - GRM185R61C105KE44D - CAP, MLCC, X5R, 1UF, 16V, 0603"/>
@@ -596,13 +580,15 @@
       <tstamps>8e4f36d9-4e7d-44aa-8b0f-e7d1338469a7</tstamps>
     </comp>
     <comp ref="C17">
-      <value>VJ0603Y104MXJCW1BC</value>
+      <value>GPC0603104-25 </value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">VJ0603Y104MXJCW1BC</field>
+        <field name="Capacitance">100nF</field>
+        <field name="MPN">GPC0603104-25 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y104MXJCW1BC"/>
+      <property name="MPN" value="GPC0603104-25 "/>
+      <property name="Capacitance" value="100nF"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -611,13 +597,15 @@
       <tstamps>4fa9f08f-4bf0-42c5-8c98-37ad7eb7ad7f</tstamps>
     </comp>
     <comp ref="C18">
-      <value>VJ0603Y104MXJCW1BC</value>
+      <value>GPC0603104-25 </value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">VJ0603Y104MXJCW1BC</field>
+        <field name="Capacitance">100nF</field>
+        <field name="MPN">GPC0603104-25 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y104MXJCW1BC"/>
+      <property name="MPN" value="GPC0603104-25 "/>
+      <property name="Capacitance" value="100nF"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -626,16 +614,18 @@
       <tstamps>9fe08c8c-ae84-4e74-8ae0-ce6b3344606c</tstamps>
     </comp>
     <comp ref="D5">
-      <value>SML-D12D8WT8</value>
+      <value>SML-D12D8WT86C</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12d8wt86(c)-e.pdf</datasheet>
       <fields>
-        <field name="MPN">SML-D12D8WT8</field>
+        <field name="MPN">SML-D12D8WT86C</field>
+        <field name="Manufacturer_Part_Number">SML-D12D8WT86C</field>
         <field name="Mouser PN"> 755-SML-D12D8WT86C</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="MPN" value="SML-D12D8WT8"/>
+      <property name="MPN" value="SML-D12D8WT86C"/>
       <property name="Mouser PN" value=" 755-SML-D12D8WT86C"/>
+      <property name="Manufacturer_Part_Number" value="SML-D12D8WT86C"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -759,13 +749,13 @@
       <tstamps>ca94eaba-0992-4838-967d-146c7e8e4821</tstamps>
     </comp>
     <comp ref="R11">
-      <value>CRCW0603180RFKEA</value>
+      <value>GPR0603180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW0603180RFKEA</field>
+        <field name="MPN">GPR0603180R</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW0603180RFKEA"/>
+      <property name="MPN" value="GPR0603180R"/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1091,13 +1081,13 @@
       <tstamps>00000000-0000-0000-0000-00005a802e4d</tstamps>
     </comp>
     <comp ref="R8">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value="outputs"/>
       <property name="Sheetfile" value="outputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1106,13 +1096,13 @@
       <tstamps>af773f30-a922-4c78-b293-8997d81c7846</tstamps>
     </comp>
     <comp ref="R9">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value="outputs"/>
       <property name="Sheetfile" value="outputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1121,13 +1111,13 @@
       <tstamps>870c8842-29ee-4dcb-b629-d44659485785</tstamps>
     </comp>
     <comp ref="R10">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value="outputs"/>
       <property name="Sheetfile" value="outputs.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1135,25 +1125,16 @@
       <sheetpath names="/outputs/" tstamps="/00000000-0000-0000-0000-00005a604cdc/"/>
       <tstamps>3efbfe3e-8f4e-41a0-babc-585103eed8e7</tstamps>
     </comp>
-    <comp ref="AE1">
-      <value>Antenna</value>
-      <footprint>RF_Antenna:Texas_SWRA117D_2.4GHz_Left</footprint>
-      <libsource lib="Device" part="Antenna" description="Antenna"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Antenna"/>
-      <property name="ki_keywords" value="antenna"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>9b44d7e1-ee1f-4424-94ac-9b7f4ca3f294</tstamps>
-    </comp>
     <comp ref="C5">
-      <value>VJ0603Y104MXJCW1BC</value>
+      <value>GPC0603104-25 </value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">VJ0603Y104MXJCW1BC</field>
+        <field name="Capacitance">100nF</field>
+        <field name="MPN">GPC0603104-25 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y104MXJCW1BC"/>
+      <property name="MPN" value="GPC0603104-25 "/>
+      <property name="Capacitance" value="100nF"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1162,96 +1143,69 @@
       <tstamps>4d5e10eb-a0bd-47aa-a80e-daa9ce5442c1</tstamps>
     </comp>
     <comp ref="C6">
-      <value>GRM1555C1H1R2WA01D</value>
-      <footprint>SamacSys_Parts:CAPC1005X55N</footprint>
-      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
-      <fields>
-        <field name="Arrow Part Number">GRM1555C1H1R2WA01D</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm1555c1h1r2wa01d/murata-manufacturing</field>
-        <field name="Height">0.55</field>
-        <field name="MPN">GRM1555C1H1R2WA01D</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM1555C1H1R2WA01D</field>
-        <field name="Mouser Part Number">81-GRM1555C1H1R2WA1D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H1R2WA01D?qs=ouTquLLW2S4ZARlph37hBQ%3D%3D</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="GRM1555C1H1R2WA01D" description="Murata 0402 GRM 1.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD"/>
-      <property name="Height" value="0.55"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="GRM1555C1H1R2WA01D"/>
-      <property name="Mouser Part Number" value="81-GRM1555C1H1R2WA1D"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H1R2WA01D?qs=ouTquLLW2S4ZARlph37hBQ%3D%3D"/>
-      <property name="Arrow Part Number" value="GRM1555C1H1R2WA01D"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/grm1555c1h1r2wa01d/murata-manufacturing"/>
-      <property name="MPN" value="GRM1555C1H1R2WA01D"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Murata 0402 GRM 1.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>dff0afcb-55a9-4bef-b454-a29c3569571e</tstamps>
-    </comp>
-    <comp ref="C7">
-      <value>GRM1555C1HR30WA01D</value>
-      <footprint>SamacSys_Parts:CAPC1005X55N</footprint>
-      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
-      <fields>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm1555c1hr30wa01d/murata-manufacturing</field>
-        <field name="Height">0.55</field>
-        <field name="MPN">GRM1555C1HR30WA01D</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM1555C1HR30WA01D</field>
-        <field name="Mouser Part Number">81-GRM1555C1HR30WA1D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1HR30WA01D?qs=e%252BE4OD6MgMcS%252BbE0ktTutg%3D%3D</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="GRM1555C1HR30WA01D" description="Murata 0402 GRM 0.3pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD"/>
-      <property name="Height" value="0.55"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="GRM1555C1HR30WA01D"/>
-      <property name="Mouser Part Number" value="81-GRM1555C1HR30WA1D"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1HR30WA01D?qs=e%252BE4OD6MgMcS%252BbE0ktTutg%3D%3D"/>
-      <property name="MPN" value="GRM1555C1HR30WA01D"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/grm1555c1hr30wa01d/murata-manufacturing"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Murata 0402 GRM 0.3pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>8ebae75b-989e-4256-88ac-dee4586b17ac</tstamps>
-    </comp>
-    <comp ref="C8">
-      <value>GRM1555C1HR80BA01D</value>
-      <footprint>SamacSys_Parts:CAPC1005X55N</footprint>
-      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
-      <fields>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm1555c1hr80ba01d/murata-manufacturing?region=nac</field>
-        <field name="Height">0.55</field>
-        <field name="MPN">GRM1555C1HR80BA01D</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM1555C1HR80BA01D</field>
-        <field name="Mouser Part Number">81-GRM1555C1HR80BA1D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1HR80BA01D?qs=e%252BE4OD6MgMezPYPintwvrA%3D%3D</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="GRM1555C1HR80BA01D" description="Murata 0402 GRM 0.8pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.1pF SMD"/>
-      <property name="Height" value="0.55"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="GRM1555C1HR80BA01D"/>
-      <property name="Mouser Part Number" value="81-GRM1555C1HR80BA1D"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1HR80BA01D?qs=e%252BE4OD6MgMezPYPintwvrA%3D%3D"/>
-      <property name="MPN" value="GRM1555C1HR80BA01D"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/grm1555c1hr80ba01d/murata-manufacturing?region=nac"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Murata 0402 GRM 0.8pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.1pF SMD"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>ba0729da-bf3d-4a74-934c-5dbd10eafa1e</tstamps>
-    </comp>
-    <comp ref="C9">
-      <value>VJ0603Y104MXJCW1BC</value>
+      <value>GPC0603475-10 </value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">VJ0603Y104MXJCW1BC</field>
+        <field name="Capacitance">4.7uF</field>
+        <field name="MPN">GPC0603475-10 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y104MXJCW1BC"/>
+      <property name="Capacitance" value="4.7uF"/>
+      <property name="MPN" value="GPC0603475-10 "/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
+      <tstamps>f656293b-3b9c-4f40-987e-7466a8b1edc9</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>GPC0603475-10 </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Capacitance">4.7uF</field>
+        <field name="MPN">GPC0603475-10 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Capacitance" value="4.7uF"/>
+      <property name="MPN" value="GPC0603475-10 "/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
+      <tstamps>e6c20a18-7b9b-4bae-8d53-4e03232229af</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>GPC0603101</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/doc?28548</datasheet>
+      <fields>
+        <field name="Capacitance">100pF</field>
+        <field name="MPN">GPC0603101</field>
+        <field name="Manufacturer_Part_Number">GPC0603101</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="GPC0603101"/>
+      <property name="Manufacturer_Part_Number" value="GPC0603101"/>
+      <property name="Capacitance" value="100pF"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
+      <tstamps>e578d22b-83ef-4b2f-9550-7517273cfeaf</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>GPC0603104-25 </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Capacitance">100nF</field>
+        <field name="MPN">GPC0603104-25 </field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="GPC0603104-25 "/>
+      <property name="Capacitance" value="100nF"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1260,13 +1214,15 @@
       <tstamps>4c4f9e9a-f696-44e9-a599-6cc8fceeb9a7</tstamps>
     </comp>
     <comp ref="C10">
-      <value>VJ0603Y104MXJCW1BC</value>
+      <value>GPC0603104-25 </value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">VJ0603Y104MXJCW1BC</field>
+        <field name="Capacitance">100nF</field>
+        <field name="MPN">GPC0603104-25 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y104MXJCW1BC"/>
+      <property name="MPN" value="GPC0603104-25 "/>
+      <property name="Capacitance" value="100nF"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1275,13 +1231,15 @@
       <tstamps>39e3faf6-9dbe-412b-8d5a-0f616f87d325</tstamps>
     </comp>
     <comp ref="C11">
-      <value>VJ0603Y104MXJCW1BC</value>
+      <value>GPC0603104-25 </value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">VJ0603Y104MXJCW1BC</field>
+        <field name="Capacitance">100nF</field>
+        <field name="MPN">GPC0603104-25 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y104MXJCW1BC"/>
+      <property name="MPN" value="GPC0603104-25 "/>
+      <property name="Capacitance" value="100nF"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1290,13 +1248,15 @@
       <tstamps>16e9423e-1940-4e9e-90ba-ae3820c61010</tstamps>
     </comp>
     <comp ref="C12">
-      <value>VJ0603Y104MXJCW1BC</value>
+      <value>GPC0603104-25 </value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">VJ0603Y104MXJCW1BC</field>
+        <field name="Capacitance">100nF</field>
+        <field name="MPN">GPC0603104-25 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y104MXJCW1BC"/>
+      <property name="MPN" value="GPC0603104-25 "/>
+      <property name="Capacitance" value="100nF"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1305,14 +1265,18 @@
       <tstamps>9181d076-9c4b-4546-a96e-3e7c0825f4cb</tstamps>
     </comp>
     <comp ref="C13">
-      <value>VJ0603Y101KXQPW1BC</value>
+      <value>GPC0603101</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://www.vishay.com/doc?28548</datasheet>
       <fields>
-        <field name="MPN">VJ0603Y101KXQPW1BC</field>
+        <field name="Capacitance">100pF</field>
+        <field name="MPN">GPC0603101</field>
+        <field name="Manufacturer_Part_Number">GPC0603101</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y101KXQPW1BC"/>
+      <property name="MPN" value="GPC0603101"/>
+      <property name="Manufacturer_Part_Number" value="GPC0603101"/>
+      <property name="Capacitance" value="100pF"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1321,13 +1285,15 @@
       <tstamps>7f8c0b02-2654-452d-98e0-0d08f15362a2</tstamps>
     </comp>
     <comp ref="C14">
-      <value>VJ0603Y104MXJCW1BC</value>
+      <value>GPC0603104-25 </value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">VJ0603Y104MXJCW1BC</field>
+        <field name="Capacitance">100nF</field>
+        <field name="MPN">GPC0603104-25 </field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MPN" value="VJ0603Y104MXJCW1BC"/>
+      <property name="MPN" value="GPC0603104-25 "/>
+      <property name="Capacitance" value="100nF"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1335,116 +1301,19 @@
       <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
       <tstamps>f8b5c3ca-e734-4cf4-9399-887ec48ebfbb</tstamps>
     </comp>
-    <comp ref="C19">
-      <value>GRM1555C1H1R2WA01D</value>
-      <footprint>SamacSys_Parts:CAPC1005X55N</footprint>
-      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
-      <fields>
-        <field name="Arrow Part Number">GRM1555C1H1R2WA01D</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm1555c1h1r2wa01d/murata-manufacturing</field>
-        <field name="Height">0.55</field>
-        <field name="MPN">GRM1555C1H1R2WA01D</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM1555C1H1R2WA01D</field>
-        <field name="Mouser Part Number">81-GRM1555C1H1R2WA1D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H1R2WA01D?qs=ouTquLLW2S4ZARlph37hBQ%3D%3D</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="GRM1555C1H1R2WA01D" description="Murata 0402 GRM 1.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD"/>
-      <property name="Height" value="0.55"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="GRM1555C1H1R2WA01D"/>
-      <property name="Mouser Part Number" value="81-GRM1555C1H1R2WA1D"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H1R2WA01D?qs=ouTquLLW2S4ZARlph37hBQ%3D%3D"/>
-      <property name="Arrow Part Number" value="GRM1555C1H1R2WA01D"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/grm1555c1h1r2wa01d/murata-manufacturing"/>
-      <property name="MPN" value="GRM1555C1H1R2WA01D"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Murata 0402 GRM 1.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>ea7c323f-7292-45c8-b95a-63686d7b9326</tstamps>
-    </comp>
-    <comp ref="C20">
-      <value>GRM1555C1H1R2WA01D</value>
-      <footprint>SamacSys_Parts:CAPC1005X55N</footprint>
-      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
-      <fields>
-        <field name="Arrow Part Number">GRM1555C1H1R2WA01D</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm1555c1h1r2wa01d/murata-manufacturing</field>
-        <field name="Height">0.55</field>
-        <field name="MPN">GRM1555C1H1R2WA01D</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM1555C1H1R2WA01D</field>
-        <field name="Mouser Part Number">81-GRM1555C1H1R2WA1D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H1R2WA01D?qs=ouTquLLW2S4ZARlph37hBQ%3D%3D</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="GRM1555C1H1R2WA01D" description="Murata 0402 GRM 1.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD"/>
-      <property name="Height" value="0.55"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="GRM1555C1H1R2WA01D"/>
-      <property name="Mouser Part Number" value="81-GRM1555C1H1R2WA1D"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H1R2WA01D?qs=ouTquLLW2S4ZARlph37hBQ%3D%3D"/>
-      <property name="Arrow Part Number" value="GRM1555C1H1R2WA01D"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/grm1555c1h1r2wa01d/murata-manufacturing"/>
-      <property name="MPN" value="GRM1555C1H1R2WA01D"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Murata 0402 GRM 1.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>27ff6d7b-a542-43d0-a4dd-574119d032ee</tstamps>
-    </comp>
-    <comp ref="C21">
-      <value>GRM1555C1H1R2WA01D</value>
-      <footprint>SamacSys_Parts:CAPC1005X55N</footprint>
-      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
-      <fields>
-        <field name="Arrow Part Number">GRM1555C1H1R2WA01D</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm1555c1h1r2wa01d/murata-manufacturing</field>
-        <field name="Height">0.55</field>
-        <field name="MPN">GRM1555C1H1R2WA01D</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM1555C1H1R2WA01D</field>
-        <field name="Mouser Part Number">81-GRM1555C1H1R2WA1D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H1R2WA01D?qs=ouTquLLW2S4ZARlph37hBQ%3D%3D</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="GRM1555C1H1R2WA01D" description="Murata 0402 GRM 1.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD"/>
-      <property name="Height" value="0.55"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="GRM1555C1H1R2WA01D"/>
-      <property name="Mouser Part Number" value="81-GRM1555C1H1R2WA1D"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H1R2WA01D?qs=ouTquLLW2S4ZARlph37hBQ%3D%3D"/>
-      <property name="Arrow Part Number" value="GRM1555C1H1R2WA01D"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/grm1555c1h1r2wa01d/murata-manufacturing"/>
-      <property name="MPN" value="GRM1555C1H1R2WA01D"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Murata 0402 GRM 1.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>5e348a07-2e0a-4b4d-a505-5eb0edb34b86</tstamps>
-    </comp>
     <comp ref="D1">
-      <value>BAT54KFILM</value>
+      <value>RB521S30T1G</value>
       <footprint>SamacSys_Parts:SODFL1608X70N</footprint>
       <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00001322.pdf</datasheet>
       <fields>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/bat54kfilm/stmicroelectronics?region=nac</field>
-        <field name="Description">BAT54KFILM, Schottky Diode,  0.3A max, 40V 5ns, 2-Pin, SOD-523</field>
+        <field name="Description">Schottky Diode,  0.2A max, 40V 5ns, 2-Pin, SOD523</field>
         <field name="Height">0.7</field>
-        <field name="MPN">BAT54KFILM</field>
-        <field name="Manufacturer_Name">STMicroelectronics</field>
-        <field name="Manufacturer_Part_Number">BAT54KFILM</field>
-        <field name="Mouser Part Number">511-BAT54KFILM</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BAT54KFILM?qs=jZi1jxfVU95Y9ce6l3OT%252BA%3D%3D</field>
+        <field name="MPN">RB521S30T1G</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="BAT54KFILM" description="BAT54KFILM, Schottky Diode,  0.3A max, 40V 5ns, 2-Pin, SOD-523"/>
-      <property name="Description" value="BAT54KFILM, Schottky Diode,  0.3A max, 40V 5ns, 2-Pin, SOD-523"/>
+      <property name="Description" value="Schottky Diode,  0.2A max, 40V 5ns, 2-Pin, SOD523"/>
       <property name="Height" value="0.7"/>
-      <property name="Manufacturer_Name" value="STMicroelectronics"/>
-      <property name="Manufacturer_Part_Number" value="BAT54KFILM"/>
-      <property name="Mouser Part Number" value="511-BAT54KFILM"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BAT54KFILM?qs=jZi1jxfVU95Y9ce6l3OT%252BA%3D%3D"/>
-      <property name="MPN" value="BAT54KFILM"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/bat54kfilm/stmicroelectronics?region=nac"/>
+      <property name="MPN" value="RB521S30T1G"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="BAT54KFILM, Schottky Diode,  0.3A max, 40V 5ns, 2-Pin, SOD-523"/>
@@ -1452,16 +1321,18 @@
       <tstamps>c346a180-9b0f-40b5-998b-de83cdfbb2d2</tstamps>
     </comp>
     <comp ref="D6">
-      <value>SMLEN3BC8TT86</value>
+      <value>150060BS55040</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/smlen3bc8tt86-e.pdf</datasheet>
       <fields>
-        <field name="MPN">SMLEN3BC8TT86</field>
+        <field name="MPN">150060BS55040</field>
+        <field name="Manufacturer_Part_Number">150060BS55040</field>
         <field name="Mouser PN"> 755-SMLEN3BC8TT86 </field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="MPN" value="SMLEN3BC8TT86"/>
+      <property name="MPN" value="150060BS55040"/>
       <property name="Mouser PN" value=" 755-SMLEN3BC8TT86 "/>
+      <property name="Manufacturer_Part_Number" value="150060BS55040"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -1469,63 +1340,55 @@
       <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
       <tstamps>37bee60f-d6e5-4fc5-bfd6-f0feec8465e4</tstamps>
     </comp>
-    <comp ref="FL1">
-      <value>DEA162450BT-1260B2</value>
-      <footprint>DEA162450BT1295A1</footprint>
-      <datasheet>https://product.tdk.com/system/files/dam/doc/product/rf/rf/filter/catalog/rf_bpf_dea162450bt-1260b2_en.pdf</datasheet>
+    <comp ref="FL2">
+      <value>MLPF-WB55-01E3</value>
+      <footprint>MLPFWB5501E3</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf</datasheet>
       <fields>
-        <field name="Arrow Part Number">DEA162450BT-1260B2</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/dea162450bt-1260b2/tdk?region=nac</field>
-        <field name="Description">Signal Conditioning 2.4GHz W-LAN/Blue2th Multilayer BPF</field>
-        <field name="Height">0</field>
-        <field name="Manufacturer_Name">TDK</field>
-        <field name="Manufacturer_Part_Number">DEA162450BT-1260B2</field>
-        <field name="Mouser Part Number">810-DEA16245BT126B2</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/DEA162450BT-1260B2?qs=fR3RxBVkcwmVXw6N1ehggw%3D%3D</field>
+        <field name="Arrow Part Number">MLPF-WB55-01E3</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mlpf-wb55-01e3/stmicroelectronics?region=nac</field>
+        <field name="Description">RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55</field>
+        <field name="Height">0.7</field>
+        <field name="MPN">MLPF-WB55-01E3</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">MLPF-WB55-01E3</field>
+        <field name="Mouser Part Number">511-MLPF-WB55-01E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/MLPF-WB55-01E3?qs=vLWxofP3U2xV%2FkxL9PmCDA%3D%3D</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="DEA162450BT-1260B2" description="Signal Conditioning 2.4GHz W-LAN/Blue2th Multilayer BPF"/>
-      <property name="Description" value="Signal Conditioning 2.4GHz W-LAN/Blue2th Multilayer BPF"/>
-      <property name="Height" value="0"/>
-      <property name="Manufacturer_Name" value="TDK"/>
-      <property name="Manufacturer_Part_Number" value="DEA162450BT-1260B2"/>
-      <property name="Mouser Part Number" value="810-DEA16245BT126B2"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TDK/DEA162450BT-1260B2?qs=fR3RxBVkcwmVXw6N1ehggw%3D%3D"/>
-      <property name="Arrow Part Number" value="DEA162450BT-1260B2"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/dea162450bt-1260b2/tdk?region=nac"/>
+      <libsource lib="SamacSys_Parts" part="MLPF-WB55-01E3" description="RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55"/>
+      <property name="Description" value="RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55"/>
+      <property name="Height" value="0.7"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="MLPF-WB55-01E3"/>
+      <property name="Mouser Part Number" value="511-MLPF-WB55-01E3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/MLPF-WB55-01E3?qs=vLWxofP3U2xV%2FkxL9PmCDA%3D%3D"/>
+      <property name="Arrow Part Number" value="MLPF-WB55-01E3"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mlpf-wb55-01e3/stmicroelectronics?region=nac"/>
+      <property name="MPN" value="MLPF-WB55-01E3"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Signal Conditioning 2.4GHz W-LAN/Blue2th Multilayer BPF"/>
+      <property name="ki_description" value="RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55"/>
       <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>5fda4d4d-d73a-4fbc-8033-7bf0febe4a66</tstamps>
+      <tstamps>9a63795f-2a5d-48dc-bd87-7f3823417365</tstamps>
     </comp>
-    <comp ref="J12">
-      <value>CONUFL001-SMD-T</value>
-      <footprint>CONUFL001-SMD</footprint>
-      <datasheet>https://linxtechnologies.com/wp/product/mhf-rf-connectors/</datasheet>
+    <comp ref="J6">
+      <value>60312202114509</value>
+      <footprint>SamacSys_Parts:60312202114509</footprint>
+      <datasheet> ~</datasheet>
       <fields>
-        <field name="Description">RF Connectors / Coaxial Connectors T&amp;R U.FL Straight Surface Mount Jack</field>
-        <field name="MPN">CONUFL001-SMD-T</field>
-        <field name="Manufacturer_Name">Linx Technologies</field>
-        <field name="Mouser Part Number">712-CONUFL001-SMD-T</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=EU6FO9ffTwfRdkBeQTdJWQ%3D%3D</field>
+        <field name="MPN">60312202114509</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="CONUFL001-SMD-T" description="RF Connectors / Coaxial Connectors T&amp;R U.FL Straight Surface Mount Jack"/>
-      <property name="Description" value="RF Connectors / Coaxial Connectors T&amp;R U.FL Straight Surface Mount Jack"/>
-      <property name="Height" value=""/>
-      <property name="Manufacturer_Name" value="Linx Technologies"/>
-      <property name="MPN" value="CONUFL001-SMD-T"/>
-      <property name="Mouser Part Number" value="712-CONUFL001-SMD-T"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=EU6FO9ffTwfRdkBeQTdJWQ%3D%3D"/>
-      <property name="Arrow Part Number" value=""/>
-      <property name="Arrow Price/Stock" value=""/>
+      <libsource lib="SamacSys_Parts" part="60312202114509" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="MPN" value="60312202114509"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="RF Connectors / Coaxial Connectors T&amp;R U.FL Straight Surface Mount Jack"/>
+      <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"/>
       <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>5e6c2bb6-bfd2-419c-b994-8739acf2dd8b</tstamps>
+      <tstamps>ca8581da-1629-436f-8c30-dc341171611b</tstamps>
     </comp>
     <comp ref="J15">
-      <value>ZX62D-B-5PA8_30_</value>
+      <value>ZX62D-B-5PA8(30)</value>
       <footprint>ZX62DB5PA830</footprint>
       <datasheet>https://www.hirose.com/en/product/document?clcode=CL0242-0056-3-30&amp;productname=ZX62D-B-5PA8(30)&amp;series=ZX&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=0001147958</datasheet>
       <fields>
@@ -1533,6 +1396,7 @@
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/zx62d-b-5pa8-30/hirose-electric?region=nac</field>
         <field name="Description">USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole</field>
         <field name="Height">3</field>
+        <field name="MPN">ZX62D-B-5PA8(30)</field>
         <field name="Manufacturer_Name">Hirose</field>
         <field name="Manufacturer_Part_Number">ZX62D-B-5PA8(30)</field>
         <field name="Mouser Part Number">798-ZX62D-B-5PA830</field>
@@ -1547,6 +1411,7 @@
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/ZX62D-B-5PA830?qs=1Nn7v2rJFSJs6IftS%252BmZAw%3D%3D"/>
       <property name="Arrow Part Number" value="ZX62D-B-5PA8(30)"/>
       <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/zx62d-b-5pa8-30/hirose-electric?region=nac"/>
+      <property name="MPN" value="ZX62D-B-5PA8(30)"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole"/>
@@ -1554,98 +1419,30 @@
       <tstamps>0b13182f-ed23-41de-8fdb-48210989b889</tstamps>
     </comp>
     <comp ref="L1">
-      <value>LQG15HS3N6S02D</value>
-      <footprint>SamacSys_Parts:LQG15WH0N7B02D</footprint>
-      <datasheet>https://psearch.en.murata.com/inductor/product/LQG15HS3N6S02%23.html</datasheet>
+      <value>LBR2012T100K</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <fields>
-        <field name="Arrow Part Number">LQG15HS3N6S02D</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/lqg15hs3n6s02d/murata-manufacturing?region=nac</field>
-        <field name="Height">0.55</field>
-        <field name="MPN">LQG15HS3N6S02D</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">LQG15HS3N6S02D</field>
-        <field name="Mouser Part Number">81-LQG15HS3N6S02D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQG15HS3N6S02D?qs=iqM9vbVcCwibNPpJYiziSA%3D%3D</field>
+        <field name="Inductance">10uH</field>
+        <field name="MPN">LBR2012T100K</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="LQG15HS3N6S02D" description="Murata LQG15HS Series 3.6 nH +/-0.3nH Multilayer SMD Inductor, 0402 (1005M) Case, SRF: 6GHz Q: 8 300mA dc 180m Rdc"/>
-      <property name="Height" value="0.55"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="LQG15HS3N6S02D"/>
-      <property name="Mouser Part Number" value="81-LQG15HS3N6S02D"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQG15HS3N6S02D?qs=iqM9vbVcCwibNPpJYiziSA%3D%3D"/>
-      <property name="Arrow Part Number" value="LQG15HS3N6S02D"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/lqg15hs3n6s02d/murata-manufacturing?region=nac"/>
-      <property name="MPN" value="LQG15HS3N6S02D"/>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Inductance" value="10uH"/>
+      <property name="MPN" value="LBR2012T100K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Murata LQG15HS Series 3.6 nH +/-0.3nH Multilayer SMD Inductor, 0402 (1005M) Case, SRF: 6GHz Q: 8 300mA dc 180m Rdc"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>840ec51d-b14e-49b1-817f-d2a235a1dff0</tstamps>
-    </comp>
-    <comp ref="L2">
-      <value>LQG15HS2N7S02J</value>
-      <footprint>SamacSys_Parts:LQG15WH0N7B02D</footprint>
-      <datasheet>https://psearch.en.murata.com/inductor/product/LQG15HS2N7S02%23.html</datasheet>
-      <fields>
-        <field name="Height">0.55</field>
-        <field name="MPN">LQG15HS2N7S02J</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">LQG15HS2N7S02J</field>
-        <field name="Mouser Part Number">N/A</field>
-        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="LQG15HS2N7S02J" description="LQG15HS_02 Series Inductor 2.7nH +/-0.3nH 0402 (1005)"/>
-      <property name="Height" value="0.55"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="LQG15HS2N7S02J"/>
-      <property name="Mouser Part Number" value="N/A"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"/>
-      <property name="Arrow Part Number" value=""/>
-      <property name="Arrow Price/Stock" value=""/>
-      <property name="MPN" value="LQG15HS2N7S02J"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="LQG15HS_02 Series Inductor 2.7nH +/-0.3nH 0402 (1005)"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>d57125b0-e417-43ec-8c40-8d0ac1fc5c8e</tstamps>
-    </comp>
-    <comp ref="L3">
-      <value>LQG15HS3N6S02D</value>
-      <footprint>SamacSys_Parts:LQG15WH0N7B02D</footprint>
-      <datasheet>https://psearch.en.murata.com/inductor/product/LQG15HS3N6S02%23.html</datasheet>
-      <fields>
-        <field name="Arrow Part Number">LQG15HS3N6S02D</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/lqg15hs3n6s02d/murata-manufacturing?region=nac</field>
-        <field name="Height">0.55</field>
-        <field name="MPN">LQG15HS3N6S02D</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">LQG15HS3N6S02D</field>
-        <field name="Mouser Part Number">81-LQG15HS3N6S02D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQG15HS3N6S02D?qs=iqM9vbVcCwibNPpJYiziSA%3D%3D</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="LQG15HS3N6S02D" description="Murata LQG15HS Series 3.6 nH +/-0.3nH Multilayer SMD Inductor, 0402 (1005M) Case, SRF: 6GHz Q: 8 300mA dc 180m Rdc"/>
-      <property name="Height" value="0.55"/>
-      <property name="Manufacturer_Name" value="Murata Electronics"/>
-      <property name="Manufacturer_Part_Number" value="LQG15HS3N6S02D"/>
-      <property name="Mouser Part Number" value="81-LQG15HS3N6S02D"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQG15HS3N6S02D?qs=iqM9vbVcCwibNPpJYiziSA%3D%3D"/>
-      <property name="Arrow Part Number" value="LQG15HS3N6S02D"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/lqg15hs3n6s02d/murata-manufacturing?region=nac"/>
-      <property name="MPN" value="LQG15HS3N6S02D"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Murata LQG15HS Series 3.6 nH +/-0.3nH Multilayer SMD Inductor, 0402 (1005M) Case, SRF: 6GHz Q: 8 300mA dc 180m Rdc"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>689aac25-1c10-4cca-ae00-96f6f9e4c38f</tstamps>
+      <tstamps>9b0f2c07-4f2f-47c1-b7f6-065daccc3bbb</tstamps>
     </comp>
     <comp ref="R6">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1654,13 +1451,13 @@
       <tstamps>965b8826-a6cf-4df7-a75f-6c890ae2a214</tstamps>
     </comp>
     <comp ref="R12">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1669,13 +1466,13 @@
       <tstamps>eefc23f3-6983-44c0-91e7-5c8ee7ac7833</tstamps>
     </comp>
     <comp ref="R13">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1684,13 +1481,13 @@
       <tstamps>8128d75d-e78d-4d31-96c2-900a2c69c715</tstamps>
     </comp>
     <comp ref="R14">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1699,13 +1496,13 @@
       <tstamps>7f799444-a4c3-47d1-8212-5e5e69ca52c3</tstamps>
     </comp>
     <comp ref="R15">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1714,13 +1511,13 @@
       <tstamps>5e147279-9b7c-4f43-8e8e-ec06cc8f63e9</tstamps>
     </comp>
     <comp ref="R16">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1729,13 +1526,13 @@
       <tstamps>0b8c47f3-9dd4-49d5-a318-021ea28a9e88</tstamps>
     </comp>
     <comp ref="R17">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1744,13 +1541,13 @@
       <tstamps>565b1e43-665b-4598-8692-1c5eb5081c32</tstamps>
     </comp>
     <comp ref="R18">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1759,13 +1556,13 @@
       <tstamps>551df811-7862-4d7c-b1c0-acc174742b45</tstamps>
     </comp>
     <comp ref="R19">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1774,13 +1571,13 @@
       <tstamps>77b3f152-886f-46e7-8c49-e5f7a1a6413b</tstamps>
     </comp>
     <comp ref="R20">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1789,13 +1586,13 @@
       <tstamps>996d08af-5cc4-4c86-8ff2-43fa89dfa791</tstamps>
     </comp>
     <comp ref="R21">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1804,13 +1601,13 @@
       <tstamps>c75052a6-e8ae-4fe7-9129-f3b699a0a736</tstamps>
     </comp>
     <comp ref="R22">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1819,13 +1616,13 @@
       <tstamps>fe9e3fb8-1eac-44a1-8948-44cc8f32a2f5</tstamps>
     </comp>
     <comp ref="R23">
-      <value>CRCW06031K00DHEBP</value>
+      <value>GPR06031K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW06031K00DHEBP</field>
+        <field name="MPN">GPR06031K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW06031K00DHEBP"/>
+      <property name="MPN" value="GPR06031K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1834,13 +1631,13 @@
       <tstamps>a6fd2222-0cf6-4a2f-904f-10f4e8c0427a</tstamps>
     </comp>
     <comp ref="R24">
-      <value>CRCW060310K0DHEAP</value>
+      <value>GPR060310K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW060310K0DHEAP</field>
+        <field name="MPN">GPR060310K</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW060310K0DHEAP"/>
+      <property name="MPN" value="GPR060310K"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1848,44 +1645,14 @@
       <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
       <tstamps>97f9d6a6-a761-4842-ba88-bdbc48f72aca</tstamps>
     </comp>
-    <comp ref="R25">
-      <value>CRCW04020000Z0EDC</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="MPN">CRCW04020000Z0EDC</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW04020000Z0EDC"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Resistor, small symbol"/>
-      <property name="ki_keywords" value="R resistor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>e04e3f5d-0fb2-4d35-8792-b03f664762d3</tstamps>
-    </comp>
-    <comp ref="R26">
-      <value>CRCW04020000Z0EDC</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="MPN">CRCW04020000Z0EDC</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW04020000Z0EDC"/>
-      <property name="Sheetname" value="Microcontroller"/>
-      <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
-      <property name="ki_description" value="Resistor, small symbol"/>
-      <property name="ki_keywords" value="R resistor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5f0c961f-7fa6-4a15-8a74-755a432cc19e/"/>
-      <tstamps>81f72a9c-af69-467c-a4b4-1d34765452c9</tstamps>
-    </comp>
     <comp ref="R27">
-      <value>CRCW0603180RFKEA</value>
+      <value>GPR0603180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">CRCW0603180RFKEA</field>
+        <field name="MPN">GPR0603180R</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="MPN" value="CRCW0603180RFKEA"/>
+      <property name="MPN" value="GPR0603180R"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1968,6 +1735,7 @@
       <fields>
         <field name="Description">CRYSTAL 32MHZ 10PF SMD</field>
         <field name="Height">0.5</field>
+        <field name="MPN">NX2016SA-32M-EXS00A-CS06465</field>
         <field name="Manufacturer_Name">NDK</field>
         <field name="Manufacturer_Part_Number">NX2016SA-32M-EXS00A-CS06465</field>
         <field name="Mouser Part Number">344-NX2016SA32S06465</field>
@@ -1982,6 +1750,7 @@
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/NDK/NX2016SA-32M-EXS00A-CS06465?qs=w%2Fv1CP2dgqr82b0JjRnv4A%3D%3D"/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
+      <property name="MPN" value="NX2016SA-32M-EXS00A-CS06465"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller.kicad_sch"/>
       <property name="ki_description" value="CRYSTAL 32MHZ 10PF SMD"/>
@@ -2184,18 +1953,6 @@
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Antenna">
-      <description>Antenna</description>
-      <docs>~</docs>
-      <fields>
-        <field name="Reference">AE</field>
-        <field name="Value">Antenna</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="C_Small">
       <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
@@ -2210,6 +1967,25 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="LED">
@@ -2351,6 +2127,31 @@
         <pin num="6" name="I/O1" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="SamacSys_Parts" part="60312202114509">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">60312202114509</field>
+        <field name="Footprint">SamacSys_Parts:60312202114509</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="SamacSys_Parts" part="61300621121">
       <description>WR-PHD 2.54mm  Dual Pin Header THT 06p Wurth Elektronik WR-PHD Series, Series Number 6130, 2.54mm Pitch 6 Way 2 Row Straight PCB Header, Solder Termination</description>
       <fields>
@@ -2438,113 +2239,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="CONUFL001-SMD-T">
-      <description>RF Connectors / Coaxial Connectors T&amp;R U.FL Straight Surface Mount Jack</description>
-      <docs>https://linxtechnologies.com/wp/product/mhf-rf-connectors/</docs>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">CONUFL001-SMD-T</field>
-        <field name="Footprint">CONUFL001-SMD</field>
-        <field name="Datasheet">https://linxtechnologies.com/wp/product/mhf-rf-connectors/</field>
-        <field name="Description">RF Connectors / Coaxial Connectors T&amp;R U.FL Straight Surface Mount Jack</field>
-        <field name="Manufacturer_Name">Linx Technologies</field>
-        <field name="Manufacturer_Part_Number">CONUFL001-SMD-T</field>
-        <field name="Mouser Part Number">712-CONUFL001-SMD-T</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONUFL001-SMD-T?qs=EU6FO9ffTwfRdkBeQTdJWQ%3D%3D</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SIG" type="passive"/>
-        <pin num="2" name="GND_1" type="passive"/>
-        <pin num="3" name="GND_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SamacSys_Parts" part="DEA162450BT-1260B2">
-      <description>Signal Conditioning 2.4GHz W-LAN/Blue2th Multilayer BPF</description>
-      <docs>https://product.tdk.com/system/files/dam/doc/product/rf/rf/filter/catalog/rf_bpf_dea162450bt-1260b2_en.pdf</docs>
-      <fields>
-        <field name="Reference">FL1</field>
-        <field name="Value">DEA162450BT-1260B2</field>
-        <field name="Footprint">DEA162450BT1295A1</field>
-        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/rf/rf/filter/catalog/rf_bpf_dea162450bt-1260b2_en.pdf</field>
-        <field name="Description">Signal Conditioning 2.4GHz W-LAN/Blue2th Multilayer BPF</field>
-        <field name="Height">0</field>
-        <field name="Manufacturer_Name">TDK</field>
-        <field name="Manufacturer_Part_Number">DEA162450BT-1260B2</field>
-        <field name="Mouser Part Number">810-DEA16245BT126B2</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/DEA162450BT-1260B2?qs=fR3RxBVkcwmVXw6N1ehggw%3D%3D</field>
-        <field name="Arrow Part Number">DEA162450BT-1260B2</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/dea162450bt-1260b2/tdk?region=nac</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IN" type="passive"/>
-        <pin num="2" name="GND" type="passive"/>
-        <pin num="3" name="OUT" type="passive"/>
-        <pin num="4" name="GND" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SamacSys_Parts" part="GRM1555C1H1R2WA01D">
-      <description>Murata 0402 GRM 1.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD</description>
-      <docs>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</docs>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">GRM1555C1H1R2WA01D</field>
-        <field name="Footprint">CAPC1005X55N</field>
-        <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</field>
-        <field name="Height">0.55</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM1555C1H1R2WA01D</field>
-        <field name="Mouser Part Number">81-GRM1555C1H1R2WA1D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1H1R2WA01D?qs=ouTquLLW2S4ZARlph37hBQ%3D%3D</field>
-        <field name="Arrow Part Number">GRM1555C1H1R2WA01D</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm1555c1h1r2wa01d/murata-manufacturing</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SamacSys_Parts" part="GRM1555C1HR30WA01D">
-      <description>Murata 0402 GRM 0.3pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.05pF SMD</description>
-      <docs>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</docs>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">GRM1555C1HR30WA01D</field>
-        <field name="Footprint">CAPC1005X55N</field>
-        <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</field>
-        <field name="Height">0.55</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM1555C1HR30WA01D</field>
-        <field name="Mouser Part Number">81-GRM1555C1HR30WA1D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1HR30WA01D?qs=e%252BE4OD6MgMcS%252BbE0ktTutg%3D%3D</field>
-        <field name="Arrow Part Number">GRM1555C1HR30WA01D</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm1555c1hr30wa01d/murata-manufacturing</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SamacSys_Parts" part="GRM1555C1HR80BA01D">
-      <description>Murata 0402 GRM 0.8pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.1pF SMD</description>
-      <docs>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</docs>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">GRM1555C1HR80BA01D</field>
-        <field name="Footprint">CAPC1005X55N</field>
-        <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</field>
-        <field name="Height">0.55</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">GRM1555C1HR80BA01D</field>
-        <field name="Mouser Part Number">81-GRM1555C1HR80BA1D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1555C1HR80BA01D?qs=e%252BE4OD6MgMezPYPintwvrA%3D%3D</field>
-        <field name="Arrow Part Number">GRM1555C1HR80BA01D</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm1555c1hr80ba01d/murata-manufacturing?region=nac</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="SamacSys_Parts" part="GRM185R61C105KE44D">
       <description>MURATA - GRM185R61C105KE44D - CAP, MLCC, X5R, 1UF, 16V, 0603</description>
       <docs>https://componentsearchengine.com/Datasheets/2/GRM185R61C105KE44D.pdf</docs>
@@ -2594,44 +2288,30 @@
         <pin num="7" name="PAD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="LQG15HS2N7S02J">
-      <description>LQG15HS_02 Series Inductor 2.7nH +/-0.3nH 0402 (1005)</description>
-      <docs>https://psearch.en.murata.com/inductor/product/LQG15HS2N7S02%23.html</docs>
+    <libpart lib="SamacSys_Parts" part="MLPF-WB55-01E3">
+      <description>RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55</description>
+      <docs>https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf</docs>
       <fields>
-        <field name="Reference">L</field>
-        <field name="Value">LQG15HS2N7S02J</field>
-        <field name="Footprint">LQG15WH0N7B02D</field>
-        <field name="Datasheet">https://psearch.en.murata.com/inductor/product/LQG15HS2N7S02%23.html</field>
-        <field name="Height">0.55</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">LQG15HS2N7S02J</field>
-        <field name="Mouser Part Number">N/A</field>
-        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
+        <field name="Reference">FL</field>
+        <field name="Value">MLPF-WB55-01E3</field>
+        <field name="Footprint">MLPFWB5501E3</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf</field>
+        <field name="Description">RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55</field>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">MLPF-WB55-01E3</field>
+        <field name="Mouser Part Number">511-MLPF-WB55-01E3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/MLPF-WB55-01E3?qs=vLWxofP3U2xV%2FkxL9PmCDA%3D%3D</field>
+        <field name="Arrow Part Number">MLPF-WB55-01E3</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mlpf-wb55-01e3/stmicroelectronics?region=nac</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="SamacSys_Parts" part="LQG15HS3N6S02D">
-      <description>Murata LQG15HS Series 3.6 nH +/-0.3nH Multilayer SMD Inductor, 0402 (1005M) Case, SRF: 6GHz Q: 8 300mA dc 180m Rdc</description>
-      <docs>https://psearch.en.murata.com/inductor/product/LQG15HS3N6S02%23.html</docs>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">LQG15HS3N6S02D</field>
-        <field name="Footprint">LQG15WH0N7B02D</field>
-        <field name="Datasheet">https://psearch.en.murata.com/inductor/product/LQG15HS3N6S02%23.html</field>
-        <field name="Height">0.55</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">LQG15HS3N6S02D</field>
-        <field name="Mouser Part Number">81-LQG15HS3N6S02D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQG15HS3N6S02D?qs=iqM9vbVcCwibNPpJYiziSA%3D%3D</field>
-        <field name="Arrow Part Number">LQG15HS3N6S02D</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/lqg15hs3n6s02d/murata-manufacturing?region=nac</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="GND4" type="passive"/>
+        <pin num="3" name="IN" type="passive"/>
+        <pin num="4" name="GND1" type="passive"/>
+        <pin num="5" name="GND2" type="passive"/>
+        <pin num="6" name="GND3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="SamacSys_Parts" part="NX2016SA-32M-EXS00A-CS06465">
@@ -2702,7 +2382,7 @@
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
     </library>
     <library logical="SamacSys_Parts">
-      <uri>C:\Users\Aurel\Documents\Astroplant\Hardware\Depository_astroplant_hardware\astroplant-hardware\Electronics\PCB\AstroPlant_ExtensionBoard\astroplant-extension-board-mk0-7/Library/SamacSys_Parts.lib</uri>
+      <uri>C:\Users\Aurel\Documents\Astroplant\Hardware\Depository_astroplant_hardware\astroplant-hardware\Electronics\PCB\AstroPlant_ExtensionBoard\astroplant-extension-board-mk0-7/Library/SamacSys_Parts.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -2712,6 +2392,8 @@
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="DC+" pintype="power_in"/>
       <node ref="J22" pin="3" pinfunction="PW" pintype="power_in"/>
@@ -2730,11 +2412,10 @@
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VBAT" pintype="power_in"/>
       <node ref="U2" pin="14" pinfunction="VDDA" pintype="power_in"/>
       <node ref="U2" pin="30" pinfunction="VDD" pintype="power_in"/>
       <node ref="U2" pin="33" pinfunction="VDDRF" pintype="power_in"/>
-      <node ref="U2" pin="41" pinfunction="VFBSMPS" pintype="input"/>
-      <node ref="U2" pin="43" pinfunction="VLXSMPS" pintype="power_in"/>
       <node ref="U2" pin="44" pinfunction="VDDSMPS" pintype="power_in"/>
       <node ref="U2" pin="45" pinfunction="VDD" pintype="power_in"/>
       <node ref="U2" pin="55" pinfunction="VDDUSB" pintype="power_in"/>
@@ -2766,39 +2447,47 @@
       <node ref="J19" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="4" name="3.3V_Generated">
+    <net code="4" name="/Microcontroller/Ant_50Ohm">
+      <node ref="FL2" pin="1" pinfunction="OUT" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="5" name="/Microcontroller/Ant_62Ohm">
+      <node ref="FL2" pin="3" pinfunction="IN" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="RF1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="3.3V_Generated">
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="PS1" pin="4" pinfunction="VOUT" pintype="output"/>
     </net>
-    <net code="5" name="3.3V_RPi">
+    <net code="7" name="3.3V_RPi">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="3V3" pintype="power_in"/>
       <node ref="J2" pin="17" pinfunction="3V3" pintype="power_in"/>
       <node ref="JP5" pin="3" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="6" name="5V_IN">
+    <net code="8" name="5V_IN">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="J14" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="7" name="5V_RPi">
+    <net code="9" name="5V_RPi">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="J14" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="5V" pintype="power_in"/>
       <node ref="J2" pin="4" pinfunction="5V" pintype="power_in"/>
     </net>
-    <net code="8" name="5V_USB">
+    <net code="10" name="5V_USB">
       <node ref="J14" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="J15" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="9" name="CE0">
+    <net code="11" name="CE0">
       <node ref="J2" pin="24" pinfunction="~{CE0}/GPIO8" pintype="bidirectional"/>
       <node ref="U2" pin="19" pinfunction="PA4" pintype="bidirectional"/>
     </net>
-    <net code="10" name="GND">
+    <net code="12" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -2809,26 +2498,23 @@
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C17" pin="2" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
-      <node ref="C19" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="C20" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C21" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="FL1" pin="2" pinfunction="GND" pintype="passive"/>
-      <node ref="FL1" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="FL2" pin="2" pinfunction="GND4" pintype="passive"/>
+      <node ref="FL2" pin="4" pinfunction="GND1" pintype="passive"/>
+      <node ref="FL2" pin="5" pinfunction="GND2" pintype="passive"/>
+      <node ref="FL2" pin="6" pinfunction="GND3" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="DC-" pintype="power_in"/>
       <node ref="J10" pin="4" pinfunction="GND" pintype="input"/>
       <node ref="J11" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="J12" pin="2" pinfunction="GND_1" pintype="passive"/>
-      <node ref="J12" pin="3" pinfunction="GND_2" pintype="passive"/>
       <node ref="J13" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="J15" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="J15" pin="MH1" pinfunction="MH1" pintype="passive"/>
@@ -2856,6 +2542,10 @@
       <node ref="J3" pin="3" pinfunction="GND" pintype="input"/>
       <node ref="J4" pin="3" pinfunction="GND" pintype="input"/>
       <node ref="J5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="GND" pintype="passive"/>
       <node ref="J7" pin="3" pinfunction="GND" pintype="input"/>
       <node ref="J8" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="J9" pin="3" pinfunction="GND" pintype="input"/>
@@ -2880,271 +2570,245 @@
       <node ref="Y1" pin="2" pinfunction="GND_1" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="GND_2" pintype="passive"/>
     </net>
-    <net code="11" name="GPIO4">
+    <net code="13" name="GPIO4">
       <node ref="J2" pin="7" pinfunction="GCLK0/GPIO4" pintype="bidirectional"/>
       <node ref="J7" pin="1" pinfunction="DATA" pintype="bidirectional"/>
       <node ref="J9" pin="1" pinfunction="DATA" pintype="bidirectional"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="GPIO5">
+    <net code="14" name="GPIO5">
       <node ref="J2" pin="29" pinfunction="GCLK1/GPIO5" pintype="bidirectional"/>
       <node ref="J5" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="38" pinfunction="PB0" pintype="bidirectional"/>
     </net>
-    <net code="13" name="GPIO6">
+    <net code="15" name="GPIO6">
       <node ref="J2" pin="31" pinfunction="GCLK2/GPIO6" pintype="bidirectional"/>
       <node ref="J8" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="39" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="14" name="GPIO7">
+    <net code="16" name="GPIO7">
       <node ref="J11" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="26" pinfunction="~{CE1}/GPIO7" pintype="bidirectional"/>
       <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="27" pinfunction="PB2" pintype="bidirectional"/>
     </net>
-    <net code="15" name="GPIO12">
+    <net code="17" name="GPIO12">
       <node ref="J2" pin="32" pinfunction="PWM0/GPIO12" pintype="bidirectional"/>
       <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="PB8" pintype="bidirectional"/>
     </net>
-    <net code="16" name="GPIO13">
+    <net code="18" name="GPIO13">
       <node ref="J13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J2" pin="33" pinfunction="PWM1/GPIO13" pintype="bidirectional"/>
       <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="17" name="GPIO16">
+    <net code="19" name="GPIO16">
       <node ref="J2" pin="36" pinfunction="GPIO16" pintype="bidirectional"/>
       <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="U2" pin="28" pinfunction="PB10" pintype="bidirectional"/>
     </net>
-    <net code="18" name="GPIO17">
+    <net code="20" name="GPIO17">
       <node ref="J2" pin="11" pinfunction="GPIO17" pintype="bidirectional"/>
       <node ref="J3" pin="1" pinfunction="DATA" pintype="bidirectional"/>
       <node ref="J4" pin="1" pinfunction="DATA" pintype="bidirectional"/>
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="19" name="GPIO18">
+    <net code="21" name="GPIO18">
       <node ref="J13" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J2" pin="12" pinfunction="GPIO18/PWM0" pintype="bidirectional"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="20" name="GPIO19">
+    <net code="22" name="GPIO19">
       <node ref="J2" pin="35" pinfunction="GPIO19/MISO1" pintype="bidirectional"/>
       <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U2" pin="23" pinfunction="PA8" pintype="bidirectional"/>
     </net>
-    <net code="21" name="GPIO20">
+    <net code="23" name="GPIO20">
       <node ref="J13" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J2" pin="38" pinfunction="GPIO20/MOSI1" pintype="bidirectional"/>
       <node ref="R13" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="GPIO21">
+    <net code="24" name="GPIO21">
       <node ref="J13" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="J2" pin="40" pinfunction="GPIO21/SCLK1" pintype="bidirectional"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="23" name="GPIO22">
+    <net code="25" name="GPIO22">
       <node ref="J2" pin="15" pinfunction="GPIO22" pintype="bidirectional"/>
       <node ref="R22" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="GPIO23">
+    <net code="26" name="GPIO23">
       <node ref="J2" pin="16" pinfunction="GPIO23" pintype="bidirectional"/>
       <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="GPIO24">
+    <net code="27" name="GPIO24">
       <node ref="J1" pin="4" pinfunction="CH2" pintype="input"/>
       <node ref="J2" pin="18" pinfunction="GPIO24" pintype="bidirectional"/>
       <node ref="R19" pin="1" pintype="passive"/>
     </net>
-    <net code="26" name="GPIO25">
+    <net code="28" name="GPIO25">
       <node ref="J1" pin="5" pinfunction="CH3" pintype="input"/>
       <node ref="J2" pin="22" pinfunction="GPIO25" pintype="bidirectional"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="27" name="GPIO26">
+    <net code="29" name="GPIO26">
       <node ref="J1" pin="6" pinfunction="CH4" pintype="input"/>
       <node ref="J2" pin="37" pinfunction="GPIO26" pintype="bidirectional"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="28" name="GPIO27">
+    <net code="30" name="GPIO27">
       <node ref="J1" pin="3" pinfunction="CH1" pintype="input"/>
       <node ref="J2" pin="13" pinfunction="GPIO27" pintype="bidirectional"/>
       <node ref="R16" pin="1" pintype="passive"/>
     </net>
-    <net code="29" name="MISO">
+    <net code="31" name="MISO">
       <node ref="J2" pin="21" pinfunction="MISO0/GPIO9" pintype="bidirectional"/>
       <node ref="U2" pin="21" pinfunction="PA6" pintype="bidirectional"/>
     </net>
-    <net code="30" name="MOSI">
+    <net code="32" name="MOSI">
       <node ref="J2" pin="19" pinfunction="MOSI0/GPIO10" pintype="bidirectional"/>
       <node ref="U2" pin="22" pinfunction="PA7" pintype="bidirectional"/>
     </net>
-    <net code="31" name="Net-(AE1-A)">
-      <node ref="AE1" pin="1" pinfunction="A" pintype="input"/>
-      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="32" name="Net-(C19-Pad1)">
-      <node ref="C19" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R25" pin="2" pintype="passive"/>
-    </net>
-    <net code="33" name="Net-(C21-Pad1)">
-      <node ref="C21" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R26" pin="2" pintype="passive"/>
-    </net>
-    <net code="34" name="Net-(D1-Pad1)">
+    <net code="33" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pintype="passive"/>
       <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(D2-A)">
+    <net code="34" name="Net-(D2-A)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J16" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(D3-A)">
+    <net code="35" name="Net-(D3-A)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J17" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(D4-A)">
+    <net code="36" name="Net-(D4-A)">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J18" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="J19" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="38" name="Net-(D5-A)">
+    <net code="37" name="Net-(D5-A)">
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(D6-A)">
+    <net code="38" name="Net-(D6-A)">
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(FL1-IN)">
-      <node ref="FL1" pin="1" pinfunction="IN" pintype="passive"/>
-      <node ref="R25" pin="1" pintype="passive"/>
-      <node ref="R26" pin="1" pintype="passive"/>
-    </net>
-    <net code="41" name="Net-(FL1-OUT)">
-      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="FL1" pin="3" pinfunction="OUT" pintype="passive"/>
-      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="42" name="Net-(J12-SIG)">
-      <node ref="C20" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J12" pin="1" pinfunction="SIG" pintype="passive"/>
-      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="43" name="Net-(J15-Pad2)">
+    <net code="39" name="Net-(J15-Pad2)">
       <node ref="J15" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="44" name="Net-(J15-Pad3)">
+    <net code="40" name="Net-(J15-Pad3)">
       <node ref="J15" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(J15-Pad4)">
+    <net code="41" name="Net-(J15-Pad4)">
       <node ref="J15" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(U2-NRST)">
+    <net code="42" name="Net-(U2-NRST)">
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pintype="passive"/>
       <node ref="U2" pin="8" pinfunction="NRST" pintype="input"/>
     </net>
-    <net code="47" name="Net-(U2-OSC_IN)">
+    <net code="43" name="Net-(U2-OSC_IN)">
       <node ref="U2" pin="35" pinfunction="OSC_IN" pintype="input"/>
       <node ref="Y1" pin="1" pinfunction="CRYSTAL_1" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(U2-OSC_OUT)">
+    <net code="44" name="Net-(U2-OSC_OUT)">
       <node ref="U2" pin="34" pinfunction="OSC_OUT" pintype="input"/>
       <node ref="Y1" pin="3" pinfunction="CRYSTAL_2" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(U2-PA0)">
+    <net code="45" name="Net-(U2-PA0)">
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="U2" pin="15" pinfunction="PA0" pintype="bidirectional"/>
     </net>
-    <net code="50" name="Net-(U2-PA1)">
+    <net code="46" name="Net-(U2-PA1)">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="51" name="Net-(U2-PA2)">
+    <net code="47" name="Net-(U2-PA2)">
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U2" pin="17" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="52" name="Net-(U2-PA3)">
+    <net code="48" name="Net-(U2-PA3)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U2" pin="18" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="53" name="Net-(U2-PA11)">
+    <net code="49" name="Net-(U2-PA11)">
       <node ref="U1" pin="3" pinfunction="I/O2" pintype="passive"/>
       <node ref="U2" pin="52" pinfunction="PA11" pintype="bidirectional"/>
     </net>
-    <net code="54" name="Net-(U2-PA12)">
+    <net code="50" name="Net-(U2-PA12)">
       <node ref="U1" pin="1" pinfunction="I/O1" pintype="passive"/>
       <node ref="U2" pin="53" pinfunction="PA12" pintype="bidirectional"/>
     </net>
-    <net code="55" name="Net-(U2-PB3)">
+    <net code="51" name="Net-(U2-PB3)">
       <node ref="R27" pin="2" pintype="passive"/>
       <node ref="U2" pin="63" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="56" name="Net-(U2-PC5)">
+    <net code="52" name="Net-(U2-PC5)">
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U2" pin="26" pinfunction="PC5" pintype="bidirectional"/>
     </net>
-    <net code="57" name="Net-(U2-PC6)">
+    <net code="53" name="Net-(U2-PC6)">
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="U2" pin="50" pinfunction="PC6" pintype="bidirectional"/>
     </net>
-    <net code="58" name="Net-(U2-PC10)">
+    <net code="54" name="Net-(U2-PC10)">
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="U2" pin="58" pinfunction="PC10" pintype="bidirectional"/>
     </net>
-    <net code="59" name="Net-(U2-PC11)">
+    <net code="55" name="Net-(U2-PC11)">
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="U2" pin="59" pinfunction="PC11" pintype="bidirectional"/>
     </net>
-    <net code="60" name="Net-(U2-PC12)">
+    <net code="56" name="Net-(U2-PC12)">
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="U2" pin="60" pinfunction="PC12" pintype="bidirectional"/>
     </net>
-    <net code="61" name="Net-(U2-PC13)">
+    <net code="57" name="Net-(U2-PC13)">
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="PC13" pintype="bidirectional"/>
     </net>
-    <net code="62" name="Net-(U2-PC14)">
+    <net code="58" name="Net-(U2-PC14)">
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="PC14" pintype="bidirectional"/>
     </net>
-    <net code="63" name="Net-(U2-PC15)">
+    <net code="59" name="Net-(U2-PC15)">
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="PC15" pintype="bidirectional"/>
     </net>
-    <net code="64" name="Net-(U2-PH3)">
+    <net code="60" name="Net-(U2-PH3)">
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="PH3" pintype="bidirectional"/>
     </net>
-    <net code="65" name="Net-(U2-RF1)">
-      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U2" pin="31" pinfunction="RF1" pintype="bidirectional"/>
+    <net code="61" name="Net-(U2-VFBSMPS)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="41" pinfunction="VFBSMPS" pintype="input"/>
     </net>
-    <net code="66" name="RX">
+    <net code="62" name="Net-(U2-VLXSMPS)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="43" pinfunction="VLXSMPS" pintype="power_in"/>
+    </net>
+    <net code="63" name="RX">
       <node ref="J10" pin="2" pinfunction="RX" pintype="input"/>
       <node ref="J2" pin="10" pinfunction="GPIO15/RXD" pintype="bidirectional"/>
       <node ref="U2" pin="51" pinfunction="PA10" pintype="bidirectional"/>
     </net>
-    <net code="67" name="SCL">
+    <net code="64" name="SCL">
       <node ref="J2" pin="5" pinfunction="SCL/GPIO3" pintype="bidirectional"/>
       <node ref="J22" pin="2" pinfunction="SCL" pintype="bidirectional"/>
       <node ref="J24" pin="2" pinfunction="SCL" pintype="bidirectional"/>
@@ -3154,17 +2818,17 @@
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="65" pinfunction="PB5" pintype="bidirectional"/>
     </net>
-    <net code="68" name="SCLK">
+    <net code="65" name="SCLK">
       <node ref="J2" pin="23" pinfunction="SCLK0/GPIO11" pintype="bidirectional"/>
       <node ref="U2" pin="20" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="69" name="SCL_5V">
+    <net code="66" name="SCL_5V">
       <node ref="J23" pin="2" pinfunction="SCL" pintype="bidirectional"/>
       <node ref="J26" pin="2" pinfunction="SCL" pintype="bidirectional"/>
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="70" name="SDA">
+    <net code="67" name="SDA">
       <node ref="J2" pin="3" pinfunction="SDA/GPIO2" pintype="bidirectional"/>
       <node ref="J22" pin="1" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="J24" pin="1" pinfunction="SDA" pintype="bidirectional"/>
@@ -3174,96 +2838,93 @@
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U2" pin="66" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="71" name="SDA_5V">
+    <net code="68" name="SDA_5V">
       <node ref="J23" pin="1" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="J26" pin="1" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="72" name="TX">
+    <net code="69" name="TX">
       <node ref="J10" pin="1" pinfunction="TX" pintype="input"/>
       <node ref="J2" pin="8" pinfunction="GPIO14/TXD" pintype="bidirectional"/>
       <node ref="U2" pin="24" pinfunction="PA9" pintype="bidirectional"/>
     </net>
-    <net code="73" name="unconnected-(J2-ID_SC{slash}GPIO1-Pad28)">
+    <net code="70" name="unconnected-(J2-ID_SC{slash}GPIO1-Pad28)">
       <node ref="J2" pin="28" pinfunction="ID_SC/GPIO1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(J2-ID_SD{slash}GPIO0-Pad27)">
+    <net code="71" name="unconnected-(J2-ID_SD{slash}GPIO0-Pad27)">
       <node ref="J2" pin="27" pinfunction="ID_SD/GPIO0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(PS1-NC-Pad5)">
+    <net code="72" name="unconnected-(PS1-NC-Pad5)">
       <node ref="PS1" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="76" name="unconnected-(PS1-PG-Pad3)">
+    <net code="73" name="unconnected-(PS1-PG-Pad3)">
       <node ref="PS1" pin="3" pinfunction="PG" pintype="output"/>
     </net>
-    <net code="77" name="unconnected-(U2-AT0-Pad36)">
+    <net code="74" name="unconnected-(U2-AT0-Pad36)">
       <node ref="U2" pin="36" pinfunction="AT0" pintype="no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U2-AT1-Pad37)">
+    <net code="75" name="unconnected-(U2-AT1-Pad37)">
       <node ref="U2" pin="37" pinfunction="AT1" pintype="no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U2-PA13-Pad54)">
+    <net code="76" name="unconnected-(U2-PA13-Pad54)">
       <node ref="U2" pin="54" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="80" name="unconnected-(U2-PA14-Pad56)">
+    <net code="77" name="unconnected-(U2-PA14-Pad56)">
       <node ref="U2" pin="56" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="81" name="unconnected-(U2-PA15-Pad57)">
+    <net code="78" name="unconnected-(U2-PA15-Pad57)">
       <node ref="U2" pin="57" pinfunction="PA15" pintype="bidirectional"/>
     </net>
-    <net code="82" name="unconnected-(U2-PB4-Pad64)">
+    <net code="79" name="unconnected-(U2-PB4-Pad64)">
       <node ref="U2" pin="64" pinfunction="PB4" pintype="bidirectional"/>
     </net>
-    <net code="83" name="unconnected-(U2-PB7-Pad67)">
+    <net code="80" name="unconnected-(U2-PB7-Pad67)">
       <node ref="U2" pin="67" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="84" name="unconnected-(U2-PB9-Pad7)">
+    <net code="81" name="unconnected-(U2-PB9-Pad7)">
       <node ref="U2" pin="7" pinfunction="PB9" pintype="bidirectional"/>
     </net>
-    <net code="85" name="unconnected-(U2-PB11-Pad29)">
+    <net code="82" name="unconnected-(U2-PB11-Pad29)">
       <node ref="U2" pin="29" pinfunction="PB11" pintype="bidirectional"/>
     </net>
-    <net code="86" name="unconnected-(U2-PB12-Pad46)">
+    <net code="83" name="unconnected-(U2-PB12-Pad46)">
       <node ref="U2" pin="46" pinfunction="PB12" pintype="bidirectional"/>
     </net>
-    <net code="87" name="unconnected-(U2-PB13-Pad47)">
+    <net code="84" name="unconnected-(U2-PB13-Pad47)">
       <node ref="U2" pin="47" pinfunction="PB13" pintype="bidirectional"/>
     </net>
-    <net code="88" name="unconnected-(U2-PB14-Pad48)">
+    <net code="85" name="unconnected-(U2-PB14-Pad48)">
       <node ref="U2" pin="48" pinfunction="PB14" pintype="bidirectional"/>
     </net>
-    <net code="89" name="unconnected-(U2-PB15-Pad49)">
+    <net code="86" name="unconnected-(U2-PB15-Pad49)">
       <node ref="U2" pin="49" pinfunction="PB15" pintype="bidirectional"/>
     </net>
-    <net code="90" name="unconnected-(U2-PC0-Pad9)">
+    <net code="87" name="unconnected-(U2-PC0-Pad9)">
       <node ref="U2" pin="9" pinfunction="PC0" pintype="bidirectional"/>
     </net>
-    <net code="91" name="unconnected-(U2-PC1-Pad10)">
+    <net code="88" name="unconnected-(U2-PC1-Pad10)">
       <node ref="U2" pin="10" pinfunction="PC1" pintype="bidirectional"/>
     </net>
-    <net code="92" name="unconnected-(U2-PC2-Pad11)">
+    <net code="89" name="unconnected-(U2-PC2-Pad11)">
       <node ref="U2" pin="11" pinfunction="PC2" pintype="bidirectional"/>
     </net>
-    <net code="93" name="unconnected-(U2-PC3-Pad12)">
+    <net code="90" name="unconnected-(U2-PC3-Pad12)">
       <node ref="U2" pin="12" pinfunction="PC3" pintype="bidirectional"/>
     </net>
-    <net code="94" name="unconnected-(U2-PC4-Pad25)">
+    <net code="91" name="unconnected-(U2-PC4-Pad25)">
       <node ref="U2" pin="25" pinfunction="PC4" pintype="bidirectional"/>
     </net>
-    <net code="95" name="unconnected-(U2-PD0-Pad61)">
+    <net code="92" name="unconnected-(U2-PD0-Pad61)">
       <node ref="U2" pin="61" pinfunction="PD0" pintype="bidirectional"/>
     </net>
-    <net code="96" name="unconnected-(U2-PD1-Pad62)">
+    <net code="93" name="unconnected-(U2-PD1-Pad62)">
       <node ref="U2" pin="62" pinfunction="PD1" pintype="bidirectional"/>
     </net>
-    <net code="97" name="unconnected-(U2-PE4-Pad40)">
+    <net code="94" name="unconnected-(U2-PE4-Pad40)">
       <node ref="U2" pin="40" pinfunction="PE4" pintype="bidirectional"/>
     </net>
-    <net code="98" name="unconnected-(U2-VBAT-Pad1)">
-      <node ref="U2" pin="1" pinfunction="VBAT" pintype="power_in"/>
-    </net>
-    <net code="99" name="unconnected-(U2-VREF+-Pad13)">
+    <net code="95" name="unconnected-(U2-VREF+-Pad13)">
       <node ref="U2" pin="13" pinfunction="VREF+" pintype="input"/>
     </net>
   </nets>
