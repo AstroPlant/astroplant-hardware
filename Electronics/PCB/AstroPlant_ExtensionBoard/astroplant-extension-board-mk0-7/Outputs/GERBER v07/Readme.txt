@@ -1,1 +1,1 @@
-To have a gerber working on eurocircuit you need zip it with the drill files
+To have a gerber working on eurocircuit you need zip all of these files.

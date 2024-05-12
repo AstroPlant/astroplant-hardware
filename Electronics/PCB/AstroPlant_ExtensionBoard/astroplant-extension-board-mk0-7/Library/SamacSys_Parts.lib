@@ -1450,4 +1450,53 @@ P 5 0 1 6 200 100 1400 100 1400 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model MLPF-WB55-01E3
+#/1985782/529487/2.50/6/4/Filter
+DEF MLPF-WB55-01E3 FL 0 30 Y Y 1 F N
+F0 "FL" 950 300 50 H V L CNN
+F1 "MLPF-WB55-01E3" 950 200 50 H V L CNN
+F2 "MLPFWB5501E3" 950 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf" 950 0 50 H I L CNN
+F4 "RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55" 950 -100 50 H I L CNN "Description"
+F5 "0.7" 950 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MLPF-WB55-01E3" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-MLPF-WB55-01E3" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/MLPF-WB55-01E3?qs=vLWxofP3U2xV%2FkxL9PmCDA%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MLPF-WB55-01E3" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mlpf-wb55-01e3/stmicroelectronics?region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X GND4 2 0 -100 200 R 50 50 0 0 P
+X IN 3 0 -200 200 R 50 50 0 0 P
+X GND1 4 1100 -200 200 L 50 50 0 0 P
+X GND2 5 1100 -100 200 L 50 50 0 0 P
+X GND3 6 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 142-0701-801
+#/248901/529487/2.50/3/4/Connector
+DEF 142-0701-801 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "142-0701-801" 650 200 50 H V L CNN
+F2 "142-0701-851" 650 100 50 H I L CNN
+F3 "http://www.farnell.com/datasheets/2048966.pdf" 650 0 50 H I L CNN
+F4 "JOHNSON - 142-0701-801 - \\u5C04\\u9891/\\u540C\\u8F74\\u63D2\\u5B54, SMA, PCB\\u5B89\\u88C5" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "Cinch Connectivity Solutions" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "142-0701-801" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "530-142-0701-801" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Johnson-Cinch-Connectivity-Solutions/142-0701-801?qs=PcPxjN2Z58KbDaDuDxyLHA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "142-0701-801" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/142-0701-801/cinch-connectivity-solutions?region=europe" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
